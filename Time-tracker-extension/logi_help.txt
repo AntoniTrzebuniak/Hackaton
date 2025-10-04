@@ -1,0 +1,19 @@
+page_load
+
+Co to jest: informuje, że strona się załadowała.
+
+tab_blur / tab_focus
+
+Co to jest: zdarzenie zmiany widoczności karty.
+
+click
+
+Co to jest: użytkownik kliknął element na stronie.
+
+time_spent 
+
+Co to będzie robić: będzie wysyłać co określony czas informację, ile sekund/minut spędził użytkownik na stronie.
+
+url_change (dla SPA)
+
+Co to jest: wykrywa zmianę URL w aplikacjach typu Single Page
