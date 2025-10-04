@@ -1,0 +1,1001 @@
+timestamp,title,process,pid
+2024-10-01 08:02:57,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6919
+2024-10-01 08:04:34,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7554
+2024-10-01 08:11:28,Spotkanie: Review projektu - Microsoft Teams,teams.exe,6086
+2024-10-01 08:18:10,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5790
+2024-10-01 08:24:32,Review_Q3.pptx - PowerPoint,powerpnt.exe,5743
+2024-10-01 08:31:48,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4391
+2024-10-01 18:39:47,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4117
+2024-10-01 18:49:01,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7966
+2024-10-01 18:55:54,Spotkanie: Review projektu - Microsoft Teams,teams.exe,7750
+2024-10-01 19:08:59,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,4588
+2024-10-01 19:16:10,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,4917
+2024-10-01 19:27:42,Microsoft Teams,teams.exe,5356
+2024-10-01 19:39:22,Czat zespołu - Microsoft Teams,teams.exe,6730
+2024-10-01 19:49:57,Review_Q3.pptx - PowerPoint,powerpnt.exe,4719
+2024-10-01 19:59:25,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1169
+2024-10-01 20:12:49,Microsoft Teams,teams.exe,6054
+2024-10-01 21:16:13,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5499
+2024-10-01 21:19:22,Outlook,outlook.exe,7425
+2024-10-01 21:21:13,KPI_dashboard.xlsx - Excel,excel.exe,7052
+2024-10-01 21:25:25,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,2045
+2024-10-01 21:31:26,Nowa wiadomość - Outlook,outlook.exe,4505
+2024-10-01 22:37:37,KPI_dashboard.xlsx - Excel,excel.exe,1427
+2024-10-01 22:39:37,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5042
+2024-10-01 22:49:40,Skrzynka odbiorcza - Outlook,outlook.exe,5079
+2024-10-01 22:56:33,Budżet_Q4.xlsx - Excel,excel.exe,5996
+2024-10-01 23:05:03,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,2113
+2024-10-01 23:08:29,Skrzynka odbiorcza - Outlook,outlook.exe,6260
+2024-10-01 23:12:26,Czat zespołu - Microsoft Teams,teams.exe,6226
+2024-10-01 23:20:31,Stack Overflow - Google Chrome,chrome.exe,7158
+2024-10-01 18:28:10,Outlook,outlook.exe,2394
+2024-10-01 18:40:44,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,2205
+2024-10-01 18:43:56,Power BI - Google Chrome,chrome.exe,5198
+2024-10-01 18:54:09,config.yaml - Visual Studio Code,code.exe,2821
+2024-10-01 19:08:43,script.py - Visual Studio Code,code.exe,1211
+2024-10-01 19:18:30,database.sql - Visual Studio Code,code.exe,7611
+2024-10-01 19:28:04,Confluence - Google Chrome,chrome.exe,6481
+2024-10-01 19:36:49,config.yaml - Visual Studio Code,code.exe,6942
+2024-10-01 19:43:34,Salesforce - Google Chrome,chrome.exe,2075
+2024-10-01 19:53:08,project-alpha - Slack,slack.exe,3615
+2024-10-01 20:06:48,config.yaml - Visual Studio Code,code.exe,3652
+2024-10-01 20:14:39,Confluence - Google Chrome,chrome.exe,2689
+2024-10-01 20:24:28,project-alpha - Slack,slack.exe,1821
+2024-10-01 20:37:21,script.py - Visual Studio Code,code.exe,2059
+2024-10-01 20:47:00,JIRA - Google Chrome,chrome.exe,5368
+2024-10-01 21:01:29,project-alpha - Slack,slack.exe,5490
+2024-10-01 21:11:41,script.py - Visual Studio Code,code.exe,5415
+2024-10-01 21:23:17,Workday - Google Chrome,chrome.exe,6722
+2024-10-01 21:31:08,general - Slack,slack.exe,2518
+2024-10-01 21:35:40,database.sql - Visual Studio Code,code.exe,2789
+2024-10-01 21:42:31,Salesforce - Google Chrome,chrome.exe,5298
+2024-10-01 18:55:40,project-alpha - Slack,slack.exe,2735
+2024-10-01 19:06:03,app.js - Visual Studio Code,code.exe,4493
+2024-10-01 19:20:51,JIRA - Google Chrome,chrome.exe,5923
+2024-10-01 19:28:11,Spotkanie: Review - Outlook,outlook.exe,5705
+2024-10-01 19:41:29,Microsoft Teams,teams.exe,2756
+2024-10-01 19:53:28,GitHub - Google Chrome,chrome.exe,1888
+2024-10-01 19:03:56,Kalendarz - Outlook,outlook.exe,7437
+2024-10-01 19:07:39,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,7569
+2024-10-01 19:14:46,Power BI - Google Chrome,chrome.exe,7139
+2024-10-01 19:25:43,Nowa wiadomość - Outlook,outlook.exe,6496
+2024-10-01 19:32:54,Analiza_danych.xlsx - Excel,excel.exe,3073
+2024-10-01 19:38:38,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,2101
+2024-10-01 19:39:08,Spotkanie: Review - Outlook,outlook.exe,3006
+2024-10-01 19:50:34,Raport_sprzedaży.xlsx - Excel,excel.exe,7853
+2024-10-01 20:04:58,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,4611
+2024-10-01 20:07:01,Skrzynka odbiorcza - Outlook,outlook.exe,2161
+2024-10-01 20:13:41,KPI_dashboard.xlsx - Excel,excel.exe,2785
+2024-10-01 22:22:54,Review_Q3.pptx - PowerPoint,powerpnt.exe,7074
+2024-10-01 22:33:21,Nowa wiadomość - Outlook,outlook.exe,5314
+2024-10-01 23:13:22,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,3141
+2024-10-01 23:19:50,Power BI - Google Chrome,chrome.exe,1978
+2024-10-01 18:21:59,Microsoft Teams,teams.exe,7514
+2024-10-01 18:25:33,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,1439
+2024-10-01 18:31:27,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,2492
+2024-10-01 18:44:22,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,3414
+2024-10-01 18:54:13,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,1740
+2024-10-01 19:02:45,Microsoft Teams,teams.exe,2874
+2024-10-01 19:13:12,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,7072
+2024-10-01 19:23:37,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,5815
+2024-10-01 19:38:22,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1838
+2024-10-01 19:51:59,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,3047
+2024-10-01 19:59:07,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,3777
+2024-10-01 20:06:40,Czat zespołu - Microsoft Teams,teams.exe,5490
+2024-10-01 20:09:04,script.py - Visual Studio Code,code.exe,3601
+2024-10-01 20:14:54,ServiceNow - Google Chrome,chrome.exe,4227
+2024-10-01 18:29:33,project-alpha - Slack,slack.exe,1746
+2024-10-01 18:30:31,script.py - Visual Studio Code,code.exe,3695
+2024-10-01 18:42:33,Stack Overflow - Google Chrome,chrome.exe,4519
+2024-10-01 18:56:42,Outlook,outlook.exe,7048
+2024-10-01 18:58:09,Microsoft Teams,teams.exe,5050
+2024-10-01 19:01:47,Salesforce - Google Chrome,chrome.exe,3405
+2024-10-01 19:11:49,Spotkanie: Review - Outlook,outlook.exe,1234
+2024-10-01 19:24:50,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,6567
+2024-10-01 19:33:54,Salesforce - Google Chrome,chrome.exe,4146
+2024-10-01 19:38:58,Skrzynka odbiorcza - Outlook,outlook.exe,6582
+2024-10-01 22:41:47,Microsoft Teams,teams.exe,2600
+2024-10-01 18:55:09,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,1524
+2024-10-01 19:07:39,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,7283
+2024-10-01 19:20:15,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,5894
+2024-10-01 19:23:07,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,6612
+2024-10-01 19:33:26,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,3740
+2024-10-01 19:36:08,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,7223
+2024-10-01 19:50:59,config.yaml - Visual Studio Code,code.exe,2190
+2024-10-01 20:04:44,Salesforce - Google Chrome,chrome.exe,4980
+2024-10-01 20:16:07,general - Slack,slack.exe,7836
+2024-10-01 20:18:15,Outlook,outlook.exe,3413
+2024-10-01 21:21:37,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1311
+2024-10-01 20:33:56,ServiceNow - Google Chrome,chrome.exe,4800
+2024-10-01 20:34:26,Nowa wiadomość - Outlook,outlook.exe,5133
+2024-10-01 20:43:27,Skrzynka odbiorcza - Outlook,outlook.exe,4041
+2024-10-01 20:43:58,Microsoft Teams,teams.exe,5061
+2024-10-01 20:46:05,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1625
+2024-10-01 20:47:21,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,7416
+2024-10-01 20:59:22,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,6393
+2024-10-01 21:11:32,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4530
+2024-10-01 21:17:31,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,4089
+2024-10-01 21:32:01,Microsoft Teams,teams.exe,2575
+2024-10-01 20:33:08,Czat zespołu - Microsoft Teams,teams.exe,4667
+2024-10-01 20:38:39,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,3281
+2024-10-01 20:43:36,Microsoft Teams,teams.exe,7041
+2024-10-01 20:48:25,config.yaml - Visual Studio Code,code.exe,6276
+2024-10-01 20:54:30,Salesforce - Google Chrome,chrome.exe,2630
+2024-10-01 21:07:21,general - Slack,slack.exe,3934
+2024-10-01 21:16:58,script.py - Visual Studio Code,code.exe,6877
+2024-10-01 19:21:35,Workday - Google Chrome,chrome.exe,3391
+2024-10-01 19:26:38,urgent - Slack,slack.exe,3827
+2024-10-01 19:30:02,Outlook,outlook.exe,6864
+2024-10-01 19:34:35,script.py - Visual Studio Code,code.exe,5873
+2024-10-01 19:35:09,Stack Overflow - Google Chrome,chrome.exe,3700
+2024-10-01 19:49:21,project-alpha - Slack,slack.exe,4109
+2024-10-01 20:00:34,script.py - Visual Studio Code,code.exe,7182
+2024-10-01 20:07:12,Salesforce - Google Chrome,chrome.exe,5036
+2024-10-01 20:16:44,random - Slack,slack.exe,4205
+2024-10-01 20:24:09,script.py - Visual Studio Code,code.exe,6325
+2024-10-01 20:31:18,database.sql - Visual Studio Code,code.exe,2646
+2024-10-01 20:44:25,Confluence - Google Chrome,chrome.exe,7057
+2024-10-01 20:57:20,urgent - Slack,slack.exe,6814
+2024-10-01 21:09:46,app.js - Visual Studio Code,code.exe,3582
+2024-10-01 21:15:34,script.py - Visual Studio Code,code.exe,5876
+2024-10-01 21:24:59,Workday - Google Chrome,chrome.exe,6841
+2024-10-01 21:34:38,urgent - Slack,slack.exe,1339
+2024-10-01 21:49:35,database.sql - Visual Studio Code,code.exe,1170
+2024-10-01 21:54:53,Power BI - Google Chrome,chrome.exe,7471
+2024-10-01 22:00:01,project-alpha - Slack,slack.exe,4491
+2024-10-01 22:07:17,app.js - Visual Studio Code,code.exe,3287
+2024-10-01 22:15:50,SharePoint - Google Chrome,chrome.exe,2487
+2024-10-01 22:21:34,app.js - Visual Studio Code,code.exe,5613
+2024-10-01 22:36:03,Workday - Google Chrome,chrome.exe,1509
+2024-10-01 22:37:43,project-alpha - Slack,slack.exe,2226
+2024-10-01 22:48:47,app.js - Visual Studio Code,code.exe,2442
+2024-10-01 22:51:15,SharePoint - Google Chrome,chrome.exe,4773
+2024-10-01 23:03:35,project-alpha - Slack,slack.exe,6707
+2024-10-01 23:08:58,database.sql - Visual Studio Code,code.exe,3156
+2024-10-01 23:20:02,SharePoint - Google Chrome,chrome.exe,5268
+2024-10-01 18:31:08,urgent - Slack,slack.exe,7850
+2024-10-01 18:41:05,database.sql - Visual Studio Code,code.exe,3970
+2024-10-01 18:53:34,JIRA - Google Chrome,chrome.exe,7106
+2024-10-01 18:54:22,project-alpha - Slack,slack.exe,5883
+2024-10-01 19:02:07,app.js - Visual Studio Code,code.exe,3562
+2024-10-01 19:12:10,Confluence - Google Chrome,chrome.exe,7748
+2024-10-01 19:12:56,general - Slack,slack.exe,1948
+2024-10-01 19:25:55,database.sql - Visual Studio Code,code.exe,4649
+2024-10-01 19:28:22,app.js - Visual Studio Code,code.exe,5043
+2024-10-01 19:34:15,JIRA - Google Chrome,chrome.exe,1114
+2024-10-01 19:38:53,urgent - Slack,slack.exe,5669
+2024-10-01 19:41:44,script.py - Visual Studio Code,code.exe,5269
+2024-10-01 19:47:32,SharePoint - Google Chrome,chrome.exe,3929
+2024-10-01 19:54:25,random - Slack,slack.exe,4461
+2024-10-01 20:05:41,script.py - Visual Studio Code,code.exe,1394
+2024-10-01 20:09:52,Salesforce - Google Chrome,chrome.exe,5595
+2024-10-01 20:17:48,random - Slack,slack.exe,3902
+2024-10-01 20:23:30,config.yaml - Visual Studio Code,code.exe,6295
+2024-10-01 20:25:49,Power BI - Google Chrome,chrome.exe,3957
+2024-10-01 20:36:38,project-alpha - Slack,slack.exe,7793
+2024-10-01 20:44:19,config.yaml - Visual Studio Code,code.exe,6598
+2024-10-01 20:50:27,Confluence - Google Chrome,chrome.exe,5122
+2024-10-01 20:59:57,random - Slack,slack.exe,7722
+2024-10-01 21:07:37,database.sql - Visual Studio Code,code.exe,6175
+2024-10-01 21:19:32,GitHub - Google Chrome,chrome.exe,7938
+2024-10-01 21:25:28,urgent - Slack,slack.exe,4024
+2024-10-01 21:36:21,database.sql - Visual Studio Code,code.exe,6738
+2024-10-01 21:42:12,ServiceNow - Google Chrome,chrome.exe,3691
+2024-10-01 21:49:39,urgent - Slack,slack.exe,2800
+2024-10-01 21:57:49,database.sql - Visual Studio Code,code.exe,4340
+2024-10-01 22:04:01,SharePoint - Google Chrome,chrome.exe,3071
+2024-10-01 22:08:25,project-alpha - Slack,slack.exe,2226
+2024-10-01 22:18:12,config.yaml - Visual Studio Code,code.exe,1919
+2024-10-01 22:28:43,ServiceNow - Google Chrome,chrome.exe,5350
+2024-10-01 22:43:07,random - Slack,slack.exe,3963
+2024-10-01 23:40:51,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1904
+2024-10-01 23:53:12,JIRA - Google Chrome,chrome.exe,6462
+2024-10-01 23:58:48,Analiza_danych.xlsx - Excel,excel.exe,5103
+2024-10-02 00:09:27,Power BI - Google Chrome,chrome.exe,2492
+2024-10-02 01:28:29,app.js - Visual Studio Code,code.exe,4832
+2024-10-02 01:43:03,Spotkanie: Review - Outlook,outlook.exe,7898
+2024-10-02 01:52:29,Raport_sprzedaży.xlsx - Excel,excel.exe,3627
+2024-10-02 01:53:13,Review_Q3.pptx - PowerPoint,powerpnt.exe,2849
+2024-10-02 02:01:18,Skrzynka odbiorcza - Outlook,outlook.exe,5223
+2024-10-02 02:13:14,Raport_sprzedaży.xlsx - Excel,excel.exe,2945
+2024-10-02 02:22:37,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7006
+2024-10-02 03:02:04,Skrzynka odbiorcza - Outlook,outlook.exe,4442
+2024-10-02 03:13:09,Raport_sprzedaży.xlsx - Excel,excel.exe,2496
+2024-10-02 03:13:57,Review_Q3.pptx - PowerPoint,powerpnt.exe,3193
+2024-10-02 03:24:37,Kalendarz - Outlook,outlook.exe,5420
+2024-10-02 03:26:03,Stack Overflow - Google Chrome,chrome.exe,1864
+2024-10-02 03:36:56,KPI_dashboard.xlsx - Excel,excel.exe,2691
+2024-10-02 03:45:35,GitHub - Google Chrome,chrome.exe,7332
+2024-10-02 03:59:10,JIRA - Google Chrome,chrome.exe,2705
+2024-10-02 04:13:35,KPI_dashboard.xlsx - Excel,excel.exe,4336
+2024-10-02 04:28:05,Workday - Google Chrome,chrome.exe,4188
+2024-10-02 04:33:15,Workday - Google Chrome,chrome.exe,2214
+2024-10-02 04:34:09,Raport_sprzedaży.xlsx - Excel,excel.exe,3896
+2024-10-02 04:43:06,Stack Overflow - Google Chrome,chrome.exe,4910
+2024-10-02 04:45:08,Salesforce - Google Chrome,chrome.exe,2300
+2024-10-02 04:46:09,Analiza_danych.xlsx - Excel,excel.exe,3446
+2024-10-02 04:55:47,Salesforce - Google Chrome,chrome.exe,4840
+2024-10-02 05:04:27,GitHub - Google Chrome,chrome.exe,1655
+2024-10-02 05:12:19,Raport_sprzedaży.xlsx - Excel,excel.exe,7673
+2024-10-02 05:24:24,Power BI - Google Chrome,chrome.exe,5645
+2024-10-02 05:28:14,ServiceNow - Google Chrome,chrome.exe,7793
+2024-10-02 21:39:29,Raport_sprzedaży.xlsx - Excel,excel.exe,3414
+2024-10-02 21:41:10,ServiceNow - Google Chrome,chrome.exe,1575
+2024-10-02 21:53:31,Stack Overflow - Google Chrome,chrome.exe,1207
+2024-10-02 22:06:58,KPI_dashboard.xlsx - Excel,excel.exe,5954
+2024-10-02 22:20:37,Confluence - Google Chrome,chrome.exe,7802
+2024-10-02 22:30:34,Confluence - Google Chrome,chrome.exe,6375
+2024-10-02 22:43:30,Analiza_danych.xlsx - Excel,excel.exe,2284
+2024-10-02 22:56:12,Power BI - Google Chrome,chrome.exe,4917
+2024-10-02 23:10:36,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1114
+2024-10-02 22:19:03,Review_Q3.pptx - PowerPoint,powerpnt.exe,6362
+2024-10-02 22:28:59,Czat zespołu - Microsoft Teams,teams.exe,1251
+2024-10-02 22:31:44,Czat zespołu - Microsoft Teams,teams.exe,1933
+2024-10-02 19:37:35,Review_Q3.pptx - PowerPoint,powerpnt.exe,1740
+2024-10-02 19:45:00,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5055
+2024-10-02 19:49:33,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,1086
+2024-10-02 19:50:20,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,3779
+2024-10-02 20:03:46,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,2574
+2024-10-02 20:04:34,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4935
+2024-10-02 20:13:36,Review_Q3.pptx - PowerPoint,powerpnt.exe,4126
+2024-10-02 20:22:42,Outlook,outlook.exe,1209
+2024-10-02 20:23:16,Spotkanie: Review projektu - Microsoft Teams,teams.exe,6505
+2024-10-02 20:32:05,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5547
+2024-10-02 22:10:55,ServiceNow - Google Chrome,chrome.exe,2263
+2024-10-02 22:20:32,Analiza_danych.xlsx - Excel,excel.exe,5569
+2024-10-02 22:34:48,Outlook,outlook.exe,6882
+2024-10-02 22:36:20,Spotkanie: Review projektu - Microsoft Teams,teams.exe,5061
+2024-10-02 22:39:33,Confluence - Google Chrome,chrome.exe,1811
+2024-10-02 22:46:38,Skrzynka odbiorcza - Outlook,outlook.exe,5295
+2024-10-02 22:58:32,Spotkanie: Review - Outlook,outlook.exe,6691
+2024-10-02 18:00:33,KPI_dashboard.xlsx - Excel,excel.exe,6737
+2024-10-02 18:07:09,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5652
+2024-10-02 18:12:59,Skrzynka odbiorcza - Outlook,outlook.exe,2655
+2024-10-02 18:20:39,Analiza_danych.xlsx - Excel,excel.exe,1974
+2024-10-02 18:27:48,Review_Q3.pptx - PowerPoint,powerpnt.exe,7058
+2024-10-02 18:38:02,Skrzynka odbiorcza - Outlook,outlook.exe,7303
+2024-10-02 18:40:57,Analiza_danych.xlsx - Excel,excel.exe,5191
+2024-10-02 18:45:54,Salesforce - Google Chrome,chrome.exe,5159
+2024-10-02 18:51:49,Raport_sprzedaży.xlsx - Excel,excel.exe,7482
+2024-10-02 19:00:13,Confluence - Google Chrome,chrome.exe,2485
+2024-10-02 19:13:43,Stack Overflow - Google Chrome,chrome.exe,2396
+2024-10-02 19:20:44,app.js - Visual Studio Code,code.exe,7459
+2024-10-02 19:33:24,SharePoint - Google Chrome,chrome.exe,6558
+2024-10-02 19:45:35,urgent - Slack,slack.exe,1322
+2024-10-02 19:51:38,app.js - Visual Studio Code,code.exe,2166
+2024-10-02 20:04:47,Salesforce - Google Chrome,chrome.exe,7648
+2024-10-02 20:08:21,urgent - Slack,slack.exe,3902
+2024-10-02 22:20:09,script.py - Visual Studio Code,code.exe,5930
+2024-10-02 22:28:53,Confluence - Google Chrome,chrome.exe,3509
+2024-10-02 22:35:34,Spotkanie: Review - Outlook,outlook.exe,3480
+2024-10-02 22:37:16,Budżet_Q4.xlsx - Excel,excel.exe,1513
+2024-10-02 22:49:44,Review_Q3.pptx - PowerPoint,powerpnt.exe,1908
+2024-10-02 22:54:34,Nowa wiadomość - Outlook,outlook.exe,2651
+2024-10-02 23:07:52,KPI_dashboard.xlsx - Excel,excel.exe,1299
+2024-10-02 23:16:01,Review_Q3.pptx - PowerPoint,powerpnt.exe,3398
+2024-10-02 23:18:29,Outlook,outlook.exe,2675
+2024-10-02 23:23:43,Budżet_Q4.xlsx - Excel,excel.exe,2280
+2024-10-02 23:34:52,Review_Q3.pptx - PowerPoint,powerpnt.exe,6936
+2024-10-02 23:49:43,Nowa wiadomość - Outlook,outlook.exe,7234
+2024-10-03 00:01:22,Raport_sprzedaży.xlsx - Excel,excel.exe,2725
+2024-10-03 00:10:09,Review_Q3.pptx - PowerPoint,powerpnt.exe,7614
+2024-10-03 00:15:23,Spotkanie: Review - Outlook,outlook.exe,4792
+2024-10-03 00:19:38,Outlook,outlook.exe,6820
+2024-10-03 00:27:36,KPI_dashboard.xlsx - Excel,excel.exe,2337
+2024-10-03 00:37:59,Review_Q3.pptx - PowerPoint,powerpnt.exe,7663
+2024-10-03 00:42:26,Kalendarz - Outlook,outlook.exe,2640
+2024-10-03 00:43:06,Raport_sprzedaży.xlsx - Excel,excel.exe,4312
+2024-10-03 00:44:45,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4354
+2024-10-03 00:58:59,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,4386
+2024-10-03 01:06:21,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4297
+2024-10-03 01:20:16,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,6106
+2024-10-03 01:34:57,Review_Q3.pptx - PowerPoint,powerpnt.exe,1224
+2024-10-03 01:37:03,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4007
+2024-10-03 01:40:23,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,1290
+2024-10-03 01:53:48,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,1167
+2024-10-03 02:03:54,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4794
+2024-10-03 02:15:53,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4572
+2024-10-03 02:24:09,Review_Q3.pptx - PowerPoint,powerpnt.exe,1378
+2024-10-03 02:27:05,Czat zespołu - Microsoft Teams,teams.exe,6373
+2024-10-03 02:31:04,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4306
+2024-10-03 02:37:18,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,3934
+2024-10-03 02:50:00,Microsoft Teams,teams.exe,3436
+2024-10-03 03:35:02,Czat zespołu - Microsoft Teams,teams.exe,1454
+2024-10-03 03:40:30,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7086
+2024-10-03 03:50:41,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,3880
+2024-10-03 03:56:13,Microsoft Teams,teams.exe,6131
+2024-10-03 04:06:28,Review_Q3.pptx - PowerPoint,powerpnt.exe,1109
+2024-10-03 04:10:35,Microsoft Teams,teams.exe,5623
+2024-10-03 04:22:28,Review_Q3.pptx - PowerPoint,powerpnt.exe,5825
+2024-10-03 04:24:04,Spotkanie: Review projektu - Microsoft Teams,teams.exe,2999
+2024-10-03 04:29:18,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4168
+2024-10-03 04:43:14,Review_Q3.pptx - PowerPoint,powerpnt.exe,5378
+2024-10-03 04:57:55,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1588
+2024-10-03 05:08:20,Microsoft Teams,teams.exe,5182
+2024-10-03 20:16:28,Review_Q3.pptx - PowerPoint,powerpnt.exe,6005
+2024-10-03 20:20:48,Microsoft Teams,teams.exe,7539
+2024-10-03 20:21:27,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,2097
+2024-10-03 20:23:32,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,1339
+2024-10-03 22:25:24,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5914
+2024-10-03 22:38:15,Spotkanie: Review projektu - Microsoft Teams,teams.exe,3328
+2024-10-03 22:41:08,Review_Q3.pptx - PowerPoint,powerpnt.exe,5485
+2024-10-03 22:50:27,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6661
+2024-10-03 23:04:21,Czat zespołu - Microsoft Teams,teams.exe,6502
+2024-10-03 23:09:20,Spotkanie: Review - Outlook,outlook.exe,2247
+2024-10-03 20:16:25,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,5852
+2024-10-03 20:22:19,config.yaml - Visual Studio Code,code.exe,6449
+2024-10-03 19:31:54,app.js - Visual Studio Code,code.exe,4137
+2024-10-03 18:44:36,Power BI - Google Chrome,chrome.exe,2900
+2024-10-03 18:57:15,general - Slack,slack.exe,1578
+2024-10-03 19:00:03,database.sql - Visual Studio Code,code.exe,3715
+2024-10-03 19:13:21,Workday - Google Chrome,chrome.exe,7705
+2024-10-03 19:19:38,random - Slack,slack.exe,4376
+2024-10-03 19:28:03,script.py - Visual Studio Code,code.exe,6887
+2024-10-03 19:32:49,SharePoint - Google Chrome,chrome.exe,5281
+2024-10-03 19:42:22,urgent - Slack,slack.exe,2286
+2024-10-03 19:56:01,database.sql - Visual Studio Code,code.exe,5108
+2024-10-03 19:58:55,ServiceNow - Google Chrome,chrome.exe,3430
+2024-10-03 20:12:57,random - Slack,slack.exe,1218
+2024-10-03 20:18:58,config.yaml - Visual Studio Code,code.exe,1580
+2024-10-03 20:28:32,Stack Overflow - Google Chrome,chrome.exe,3864
+2024-10-03 20:42:23,general - Slack,slack.exe,5434
+2024-10-03 20:51:34,database.sql - Visual Studio Code,code.exe,3464
+2024-10-03 21:04:01,Confluence - Google Chrome,chrome.exe,2210
+2024-10-03 18:14:22,general - Slack,slack.exe,6821
+2024-10-03 18:28:07,script.py - Visual Studio Code,code.exe,5395
+2024-10-03 18:41:31,SharePoint - Google Chrome,chrome.exe,2025
+2024-10-03 18:46:30,project-alpha - Slack,slack.exe,7015
+2024-10-03 18:48:54,script.py - Visual Studio Code,code.exe,4432
+2024-10-03 18:59:05,Workday - Google Chrome,chrome.exe,4797
+2024-10-03 19:13:48,project-alpha - Slack,slack.exe,1917
+2024-10-03 19:25:28,script.py - Visual Studio Code,code.exe,5823
+2024-10-03 18:31:38,config.yaml - Visual Studio Code,code.exe,2511
+2024-10-03 18:41:06,Power BI - Google Chrome,chrome.exe,7138
+2024-10-03 18:50:56,general - Slack,slack.exe,2193
+2024-10-03 19:00:37,config.yaml - Visual Studio Code,code.exe,1680
+2024-10-03 19:02:02,Nowa wiadomość - Outlook,outlook.exe,3826
+2024-10-03 19:14:36,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5042
+2024-10-03 19:19:42,Stack Overflow - Google Chrome,chrome.exe,6605
+2024-10-03 19:34:35,Kalendarz - Outlook,outlook.exe,3293
+2024-10-03 19:43:29,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,3923
+2024-10-03 19:46:05,SharePoint - Google Chrome,chrome.exe,3678
+2024-10-03 20:44:12,Outlook,outlook.exe,7062
+2024-10-03 20:47:19,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1100
+2024-10-03 20:59:33,Salesforce - Google Chrome,chrome.exe,1900
+2024-10-03 21:11:44,Kalendarz - Outlook,outlook.exe,4301
+2024-10-03 21:16:37,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,2821
+2024-10-03 21:23:12,Power BI - Google Chrome,chrome.exe,6643
+2024-10-03 21:37:48,Skrzynka odbiorcza - Outlook,outlook.exe,1975
+2024-10-03 21:51:32,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6170
+2024-10-03 21:54:10,JIRA - Google Chrome,chrome.exe,4508
+2024-10-03 21:58:37,Kalendarz - Outlook,outlook.exe,2355
+2024-10-03 22:12:31,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6671
+2024-10-03 22:24:40,Outlook,outlook.exe,5659
+2024-10-03 22:35:07,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,4704
+2024-10-03 22:48:58,Kalendarz - Outlook,outlook.exe,5228
+2024-10-03 22:52:51,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,3639
+2024-10-03 23:02:29,Workday - Google Chrome,chrome.exe,5284
+2024-10-03 23:08:28,script.py - Visual Studio Code,code.exe,3441
+2024-10-03 23:15:24,Confluence - Google Chrome,chrome.exe,3577
+2024-10-03 23:22:08,urgent - Slack,slack.exe,4862
+2024-10-03 23:22:58,script.py - Visual Studio Code,code.exe,2202
+2024-10-03 23:33:48,Stack Overflow - Google Chrome,chrome.exe,2923
+2024-10-03 23:41:51,urgent - Slack,slack.exe,6782
+2024-10-03 23:55:53,app.js - Visual Studio Code,code.exe,3016
+2024-10-04 00:09:20,Salesforce - Google Chrome,chrome.exe,3932
+2024-10-04 00:23:09,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5060
+2024-10-04 00:30:14,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,1536
+2024-10-04 00:39:17,app.js - Visual Studio Code,code.exe,1523
+2024-10-04 00:49:39,GitHub - Google Chrome,chrome.exe,7101
+2024-10-04 01:04:18,Budżet_Q4.xlsx - Excel,excel.exe,1008
+2024-10-04 02:46:13,SharePoint - Google Chrome,chrome.exe,5428
+2024-10-04 18:47:18,ServiceNow - Google Chrome,chrome.exe,7154
+2024-10-04 21:50:27,Kalendarz - Outlook,outlook.exe,4877
+2024-10-04 22:04:10,Raport_sprzedaży.xlsx - Excel,excel.exe,3509
+2024-10-04 22:08:12,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5402
+2024-10-04 22:09:49,Outlook,outlook.exe,1867
+2024-10-04 22:22:08,Analiza_danych.xlsx - Excel,excel.exe,2737
+2024-10-04 22:36:56,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,7576
+2024-10-04 22:45:09,Kalendarz - Outlook,outlook.exe,2715
+2024-10-04 22:50:34,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5550
+2024-10-04 22:51:17,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,6773
+2024-10-04 22:57:31,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1817
+2024-10-04 20:12:17,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4309
+2024-10-04 20:23:36,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,5815
+2024-10-04 20:24:50,Spotkanie: Review projektu - Microsoft Teams,teams.exe,7469
+2024-10-04 20:27:05,Czat zespołu - Microsoft Teams,teams.exe,4374
+2024-10-04 20:37:35,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,7234
+2024-10-04 18:51:33,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5168
+2024-10-04 19:02:44,Microsoft Teams,teams.exe,5996
+2024-10-04 19:09:25,Review_Q3.pptx - PowerPoint,powerpnt.exe,5665
+2024-10-04 19:16:54,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,7799
+2024-10-04 19:18:22,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5186
+2024-10-04 19:31:52,Review_Q3.pptx - PowerPoint,powerpnt.exe,2501
+2024-10-04 21:44:30,Czat zespołu - Microsoft Teams,teams.exe,3796
+2024-10-04 21:58:36,Microsoft Teams,teams.exe,3178
+2024-10-04 22:08:30,Review_Q3.pptx - PowerPoint,powerpnt.exe,4728
+2024-10-04 22:14:53,Microsoft Teams,teams.exe,3152
+2024-10-04 22:25:21,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4402
+2024-10-04 22:27:34,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,2714
+2024-10-04 22:41:32,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,2798
+2024-10-04 22:43:52,Czat zespołu - Microsoft Teams,teams.exe,7819
+2024-10-04 22:54:38,Review_Q3.pptx - PowerPoint,powerpnt.exe,3069
+2024-10-04 18:56:10,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1550
+2024-10-04 19:05:17,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,6882
+2024-10-04 22:19:34,Review_Q3.pptx - PowerPoint,powerpnt.exe,1900
+2024-10-04 22:21:32,Czat zespołu - Microsoft Teams,teams.exe,1281
+2024-10-04 22:26:08,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1700
+2024-10-04 19:30:32,SharePoint - Google Chrome,chrome.exe,1751
+2024-10-04 19:45:04,Analiza_danych.xlsx - Excel,excel.exe,5337
+2024-10-04 19:57:31,GitHub - Google Chrome,chrome.exe,2338
+2024-10-04 19:58:38,GitHub - Google Chrome,chrome.exe,2523
+2024-10-04 20:00:38,script.py - Visual Studio Code,code.exe,1424
+2024-10-04 20:01:08,Stack Overflow - Google Chrome,chrome.exe,7429
+2024-10-04 20:14:19,random - Slack,slack.exe,7960
+2024-10-04 20:23:16,app.js - Visual Studio Code,code.exe,4451
+2024-10-04 20:27:26,ServiceNow - Google Chrome,chrome.exe,6772
+2024-10-04 20:33:35,project-alpha - Slack,slack.exe,6618
+2024-10-04 20:35:08,config.yaml - Visual Studio Code,code.exe,4856
+2024-10-04 20:44:20,Confluence - Google Chrome,chrome.exe,6455
+2024-10-04 20:53:20,project-alpha - Slack,slack.exe,5889
+2024-10-04 20:55:39,database.sql - Visual Studio Code,code.exe,7056
+2024-10-04 21:01:06,Workday - Google Chrome,chrome.exe,3499
+2024-10-04 21:06:45,general - Slack,slack.exe,6311
+2024-10-04 21:21:43,script.py - Visual Studio Code,code.exe,2710
+2024-10-04 21:26:16,Confluence - Google Chrome,chrome.exe,1219
+2024-10-04 21:28:28,KPI_dashboard.xlsx - Excel,excel.exe,4029
+2024-10-04 21:38:13,Salesforce - Google Chrome,chrome.exe,3937
+2024-10-04 21:49:27,Power BI - Google Chrome,chrome.exe,3832
+2024-10-04 21:53:50,Budżet_Q4.xlsx - Excel,excel.exe,2250
+2024-10-04 22:03:23,Salesforce - Google Chrome,chrome.exe,5296
+2024-10-04 22:18:00,Analiza_danych.xlsx - Excel,excel.exe,1422
+2024-10-04 19:19:22,ServiceNow - Google Chrome,chrome.exe,5163
+2024-10-04 19:29:11,KPI_dashboard.xlsx - Excel,excel.exe,2307
+2024-10-04 19:36:03,Salesforce - Google Chrome,chrome.exe,4101
+2024-10-04 19:41:24,Spotkanie: Review projektu - Microsoft Teams,teams.exe,3940
+2024-10-04 19:49:29,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,3422
+2024-10-04 19:50:39,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,2607
+2024-10-04 19:57:14,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4598
+2024-10-04 20:01:32,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,2640
+2024-10-04 20:06:42,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4344
+2024-10-04 20:19:33,Czat zespołu - Microsoft Teams,teams.exe,1149
+2024-10-04 20:30:18,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,4557
+2024-10-04 20:44:42,Spotkanie: Review projektu - Microsoft Teams,teams.exe,7497
+2024-10-04 20:56:53,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4897
+2024-10-04 18:02:13,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,7614
+2024-10-04 18:06:46,Microsoft Teams,teams.exe,1424
+2024-10-04 18:10:06,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,6010
+2024-10-04 18:22:43,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,5463
+2024-10-04 18:37:21,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,2089
+2024-10-04 18:47:28,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,4043
+2024-10-04 18:55:31,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,2007
+2024-10-04 18:59:48,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6509
+2024-10-04 19:11:40,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,7974
+2024-10-04 19:14:06,Review_Q3.pptx - PowerPoint,powerpnt.exe,4000
+2024-10-04 19:22:19,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5353
+2024-10-04 19:30:25,config.yaml - Visual Studio Code,code.exe,6107
+2024-10-04 19:42:33,ServiceNow - Google Chrome,chrome.exe,2035
+2024-10-04 19:56:22,urgent - Slack,slack.exe,7717
+2024-10-04 20:07:55,script.py - Visual Studio Code,code.exe,4323
+2024-10-04 21:22:21,Confluence - Google Chrome,chrome.exe,4667
+2024-10-04 22:46:16,random - Slack,slack.exe,3484
+2024-10-04 22:54:39,app.js - Visual Studio Code,code.exe,6074
+2024-10-04 22:57:20,SharePoint - Google Chrome,chrome.exe,1017
+2024-10-04 23:11:51,Confluence - Google Chrome,chrome.exe,2799
+2024-10-04 23:16:26,Budżet_Q4.xlsx - Excel,excel.exe,6335
+2024-10-04 23:17:03,Workday - Google Chrome,chrome.exe,1145
+2024-10-04 23:24:38,Stack Overflow - Google Chrome,chrome.exe,1875
+2024-10-04 23:33:30,KPI_dashboard.xlsx - Excel,excel.exe,4061
+2024-10-04 23:46:08,Confluence - Google Chrome,chrome.exe,4099
+2024-10-04 23:48:30,SharePoint - Google Chrome,chrome.exe,3091
+2024-10-04 23:52:52,Analiza_danych.xlsx - Excel,excel.exe,6425
+2024-10-05 00:05:21,Outlook,outlook.exe,4995
+2024-10-05 00:12:02,Analiza_danych.xlsx - Excel,excel.exe,1973
+2024-10-05 00:26:09,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,1493
+2024-10-05 00:31:11,config.yaml - Visual Studio Code,code.exe,2266
+2024-10-05 00:42:54,GitHub - Google Chrome,chrome.exe,2950
+2024-10-05 00:47:32,random - Slack,slack.exe,1024
+2024-10-05 00:57:39,config.yaml - Visual Studio Code,code.exe,2908
+2024-10-05 00:58:22,Stack Overflow - Google Chrome,chrome.exe,3447
+2024-10-05 01:12:58,random - Slack,slack.exe,5594
+2024-10-05 01:21:25,script.py - Visual Studio Code,code.exe,2695
+2024-10-05 01:31:47,Power BI - Google Chrome,chrome.exe,7310
+2024-10-05 01:38:57,general - Slack,slack.exe,1347
+2024-10-05 01:39:57,app.js - Visual Studio Code,code.exe,5899
+2024-10-05 01:50:14,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,3395
+2024-10-05 02:01:36,Review_Q3.pptx - PowerPoint,powerpnt.exe,4915
+2024-10-05 02:11:41,Czat zespołu - Microsoft Teams,teams.exe,4641
+2024-10-05 02:26:06,config.yaml - Visual Studio Code,code.exe,7034
+2024-10-05 02:34:21,Stack Overflow - Google Chrome,chrome.exe,2582
+2024-10-05 02:48:25,Spotkanie: Review - Outlook,outlook.exe,7817
+2024-10-05 03:01:12,KPI_dashboard.xlsx - Excel,excel.exe,1125
+2024-10-05 03:15:03,Skrzynka odbiorcza - Outlook,outlook.exe,4316
+2024-10-05 03:21:08,app.js - Visual Studio Code,code.exe,4853
+2024-10-05 04:38:46,Power BI - Google Chrome,chrome.exe,5869
+2024-10-05 04:50:03,general - Slack,slack.exe,7121
+2024-10-05 04:59:23,database.sql - Visual Studio Code,code.exe,3755
+2024-10-05 05:00:56,JIRA - Google Chrome,chrome.exe,7077
+2024-10-05 05:15:48,urgent - Slack,slack.exe,4518
+2024-10-05 21:28:33,app.js - Visual Studio Code,code.exe,4168
+2024-10-05 21:30:39,ServiceNow - Google Chrome,chrome.exe,7404
+2024-10-05 21:42:29,general - Slack,slack.exe,1611
+2024-10-05 21:54:55,config.yaml - Visual Studio Code,code.exe,3350
+2024-10-05 22:07:08,JIRA - Google Chrome,chrome.exe,1121
+2024-10-05 22:18:33,project-alpha - Slack,slack.exe,7706
+2024-10-05 22:26:05,app.js - Visual Studio Code,code.exe,4879
+2024-10-05 22:39:30,Salesforce - Google Chrome,chrome.exe,7864
+2024-10-05 22:49:36,urgent - Slack,slack.exe,6295
+2024-10-05 22:53:52,script.py - Visual Studio Code,code.exe,5694
+2024-10-05 23:05:29,Workday - Google Chrome,chrome.exe,1960
+2024-10-05 23:08:27,random - Slack,slack.exe,1055
+2024-10-05 23:22:28,config.yaml - Visual Studio Code,code.exe,4712
+2024-10-05 21:23:05,SharePoint - Google Chrome,chrome.exe,6315
+2024-10-05 21:36:01,Budżet_Q4.xlsx - Excel,excel.exe,2567
+2024-10-05 22:42:35,SharePoint - Google Chrome,chrome.exe,2556
+2024-10-05 20:45:42,SharePoint - Google Chrome,chrome.exe,4003
+2024-10-05 20:47:44,Analiza_danych.xlsx - Excel,excel.exe,5006
+2024-10-05 20:53:44,Skrzynka odbiorcza - Outlook,outlook.exe,1101
+2024-10-05 21:04:16,Raport_sprzedaży.xlsx - Excel,excel.exe,4085
+2024-10-05 21:18:26,Skrzynka odbiorcza - Outlook,outlook.exe,5687
+2024-10-05 21:21:25,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,7781
+2024-10-05 21:27:11,Salesforce - Google Chrome,chrome.exe,7168
+2024-10-05 21:35:51,KPI_dashboard.xlsx - Excel,excel.exe,3819
+2024-10-05 21:41:46,Power BI - Google Chrome,chrome.exe,7311
+2024-10-05 21:44:13,Confluence - Google Chrome,chrome.exe,4146
+2024-10-05 21:45:50,Nowa wiadomość - Outlook,outlook.exe,5598
+2024-10-05 22:00:32,Czat zespołu - Microsoft Teams,teams.exe,2945
+2024-10-05 22:03:51,Outlook,outlook.exe,3487
+2024-10-05 22:13:45,Czat zespołu - Microsoft Teams,teams.exe,3682
+2024-10-05 22:25:54,Workday - Google Chrome,chrome.exe,2371
+2024-10-05 22:36:35,Kalendarz - Outlook,outlook.exe,3368
+2024-10-05 22:37:55,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,2877
+2024-10-05 22:45:48,Power BI - Google Chrome,chrome.exe,7525
+2024-10-05 22:56:24,Outlook,outlook.exe,5166
+2024-10-05 22:57:37,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,1932
+2024-10-05 23:05:12,Power BI - Google Chrome,chrome.exe,3635
+2024-10-05 23:15:51,Kalendarz - Outlook,outlook.exe,6180
+2024-10-05 23:28:51,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,4113
+2024-10-05 18:32:44,Salesforce - Google Chrome,chrome.exe,1108
+2024-10-05 18:42:29,Outlook,outlook.exe,3945
+2024-10-05 18:47:57,Czat zespołu - Microsoft Teams,teams.exe,1183
+2024-10-05 18:55:33,SharePoint - Google Chrome,chrome.exe,7965
+2024-10-05 22:05:22,Outlook,outlook.exe,3258
+2024-10-05 22:07:26,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,3889
+2024-10-05 22:13:58,Stack Overflow - Google Chrome,chrome.exe,6510
+2024-10-05 22:17:02,Nowa wiadomość - Outlook,outlook.exe,1536
+2024-10-05 22:25:01,KPI_dashboard.xlsx - Excel,excel.exe,1470
+2024-10-05 22:31:33,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,2243
+2024-10-05 21:46:00,Nowa wiadomość - Outlook,outlook.exe,4222
+2024-10-05 21:49:48,Kalendarz - Outlook,outlook.exe,5486
+2024-10-05 21:54:29,Czat zespołu - Microsoft Teams,teams.exe,5121
+2024-10-05 18:59:46,Confluence - Google Chrome,chrome.exe,1704
+2024-10-05 19:01:48,KPI_dashboard.xlsx - Excel,excel.exe,1620
+2024-10-05 19:10:10,GitHub - Google Chrome,chrome.exe,1238
+2024-10-05 19:21:12,GitHub - Google Chrome,chrome.exe,6732
+2024-10-05 19:22:07,Budżet_Q4.xlsx - Excel,excel.exe,4389
+2024-10-05 19:29:41,Confluence - Google Chrome,chrome.exe,2683
+2024-10-05 20:06:37,Confluence - Google Chrome,chrome.exe,5004
+2024-10-05 20:08:20,Raport_sprzedaży.xlsx - Excel,excel.exe,5734
+2024-10-05 20:10:36,GitHub - Google Chrome,chrome.exe,1446
+2024-10-05 20:18:48,Power BI - Google Chrome,chrome.exe,6402
+2024-10-05 20:25:20,Analiza_danych.xlsx - Excel,excel.exe,2773
+2024-10-05 20:34:12,Confluence - Google Chrome,chrome.exe,1132
+2024-10-05 20:35:22,SharePoint - Google Chrome,chrome.exe,1089
+2024-10-05 20:50:02,Budżet_Q4.xlsx - Excel,excel.exe,1941
+2024-10-05 20:54:31,GitHub - Google Chrome,chrome.exe,6517
+2024-10-05 21:00:33,ServiceNow - Google Chrome,chrome.exe,7818
+2024-10-05 21:06:48,Analiza_danych.xlsx - Excel,excel.exe,7681
+2024-10-05 21:08:14,Stack Overflow - Google Chrome,chrome.exe,7489
+2024-10-05 18:15:37,Analiza_danych.xlsx - Excel,excel.exe,2064
+2024-10-05 18:26:25,ServiceNow - Google Chrome,chrome.exe,3519
+2024-10-05 20:37:34,ServiceNow - Google Chrome,chrome.exe,7312
+2024-10-05 20:41:40,Raport_sprzedaży.xlsx - Excel,excel.exe,3078
+2024-10-05 20:46:17,Stack Overflow - Google Chrome,chrome.exe,5239
+2024-10-05 20:55:21,ServiceNow - Google Chrome,chrome.exe,3454
+2024-10-05 20:56:19,Raport_sprzedaży.xlsx - Excel,excel.exe,7433
+2024-10-05 22:31:05,JIRA - Google Chrome,chrome.exe,1523
+2024-10-05 22:40:27,Confluence - Google Chrome,chrome.exe,7449
+2024-10-05 22:52:47,Budżet_Q4.xlsx - Excel,excel.exe,3498
+2024-10-05 23:02:39,GitHub - Google Chrome,chrome.exe,7064
+2024-10-05 23:06:26,Salesforce - Google Chrome,chrome.exe,3440
+2024-10-05 23:13:46,Budżet_Q4.xlsx - Excel,excel.exe,6004
+2024-10-06 18:09:43,Power BI - Google Chrome,chrome.exe,5466
+2024-10-06 18:15:14,Confluence - Google Chrome,chrome.exe,5207
+2024-10-06 19:40:51,Budżet_Q4.xlsx - Excel,excel.exe,1336
+2024-10-06 19:43:15,Workday - Google Chrome,chrome.exe,2721
+2024-10-06 19:56:03,ServiceNow - Google Chrome,chrome.exe,4675
+2024-10-06 20:04:50,KPI_dashboard.xlsx - Excel,excel.exe,3545
+2024-10-06 20:17:43,Workday - Google Chrome,chrome.exe,3278
+2024-10-06 20:19:07,SharePoint - Google Chrome,chrome.exe,7278
+2024-10-06 22:24:58,Budżet_Q4.xlsx - Excel,excel.exe,7076
+2024-10-06 22:27:48,app.js - Visual Studio Code,code.exe,1817
+2024-10-06 22:41:55,SharePoint - Google Chrome,chrome.exe,3269
+2024-10-06 22:47:25,database.sql - Visual Studio Code,code.exe,1277
+2024-10-06 22:50:09,Power BI - Google Chrome,chrome.exe,7869
+2024-10-06 23:03:03,random - Slack,slack.exe,5701
+2024-10-06 23:11:41,database.sql - Visual Studio Code,code.exe,3772
+2024-10-06 23:24:15,Confluence - Google Chrome,chrome.exe,1751
+2024-10-06 23:37:21,project-alpha - Slack,slack.exe,2093
+2024-10-06 23:50:50,config.yaml - Visual Studio Code,code.exe,1216
+2024-10-06 23:55:28,Confluence - Google Chrome,chrome.exe,6178
+2024-10-07 00:06:00,project-alpha - Slack,slack.exe,3801
+2024-10-07 00:11:20,database.sql - Visual Studio Code,code.exe,5576
+2024-10-07 00:15:25,JIRA - Google Chrome,chrome.exe,7408
+2024-10-07 00:28:20,random - Slack,slack.exe,3089
+2024-10-07 00:39:29,config.yaml - Visual Studio Code,code.exe,6012
+2024-10-07 00:46:29,Salesforce - Google Chrome,chrome.exe,6206
+2024-10-07 22:56:18,Spotkanie: Review projektu - Microsoft Teams,teams.exe,7093
+2024-10-07 23:00:52,Review_Q3.pptx - PowerPoint,powerpnt.exe,1712
+2024-10-07 23:09:33,Microsoft Teams,teams.exe,3597
+2024-10-07 23:11:28,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4248
+2024-10-07 23:25:07,Spotkanie: Review - Outlook,outlook.exe,6633
+2024-10-07 23:27:34,KPI_dashboard.xlsx - Excel,excel.exe,7568
+2024-10-07 23:39:00,Review_Q3.pptx - PowerPoint,powerpnt.exe,1028
+2024-10-07 23:49:38,Nowa wiadomość - Outlook,outlook.exe,4939
+2024-10-08 00:03:19,Raport_sprzedaży.xlsx - Excel,excel.exe,5256
+2024-10-08 00:12:49,Power BI - Google Chrome,chrome.exe,1305
+2024-10-08 00:19:39,Raport_sprzedaży.xlsx - Excel,excel.exe,1208
+2024-10-08 00:31:45,Confluence - Google Chrome,chrome.exe,6901
+2024-10-08 00:34:23,ServiceNow - Google Chrome,chrome.exe,7675
+2024-10-08 00:48:57,Raport_sprzedaży.xlsx - Excel,excel.exe,7772
+2024-10-08 01:01:35,GitHub - Google Chrome,chrome.exe,7692
+2024-10-08 01:16:05,Confluence - Google Chrome,chrome.exe,6556
+2024-10-08 01:25:26,database.sql - Visual Studio Code,code.exe,4984
+2024-10-08 19:35:16,SharePoint - Google Chrome,chrome.exe,5723
+2024-10-08 19:39:32,urgent - Slack,slack.exe,5189
+2024-10-08 19:42:21,Czat zespołu - Microsoft Teams,teams.exe,1615
+2024-10-08 19:52:50,Confluence - Google Chrome,chrome.exe,5524
+2024-10-08 20:04:31,Budżet_Q4.xlsx - Excel,excel.exe,7765
+2024-10-08 20:05:23,Nowa wiadomość - Outlook,outlook.exe,2995
+2024-10-08 20:08:04,Microsoft Teams,teams.exe,5963
+2024-10-08 20:20:10,Confluence - Google Chrome,chrome.exe,4176
+2024-10-08 20:29:47,Skrzynka odbiorcza - Outlook,outlook.exe,1988
+2024-10-08 20:33:30,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5172
+2024-10-08 20:45:01,Workday - Google Chrome,chrome.exe,4824
+2024-10-08 18:59:07,Skrzynka odbiorcza - Outlook,outlook.exe,2693
+2024-10-08 21:08:02,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1426
+2024-10-08 20:13:17,Stack Overflow - Google Chrome,chrome.exe,6919
+2024-10-08 20:23:38,Spotkanie: Review - Outlook,outlook.exe,5297
+2024-10-08 20:31:36,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4913
+2024-10-08 20:45:46,JIRA - Google Chrome,chrome.exe,3398
+2024-10-08 20:58:38,Workday - Google Chrome,chrome.exe,7338
+2024-10-08 21:02:26,Analiza_danych.xlsx - Excel,excel.exe,7060
+2024-10-08 21:14:51,Workday - Google Chrome,chrome.exe,2026
+2024-10-08 21:25:50,Salesforce - Google Chrome,chrome.exe,4248
+2024-10-08 21:40:48,Budżet_Q4.xlsx - Excel,excel.exe,7599
+2024-10-08 21:51:08,ServiceNow - Google Chrome,chrome.exe,1442
+2024-10-08 21:59:06,Stack Overflow - Google Chrome,chrome.exe,2772
+2024-10-08 22:04:46,Budżet_Q4.xlsx - Excel,excel.exe,7972
+2024-10-08 22:14:53,GitHub - Google Chrome,chrome.exe,7011
+2024-10-08 22:29:41,GitHub - Google Chrome,chrome.exe,7325
+2024-10-08 22:41:59,KPI_dashboard.xlsx - Excel,excel.exe,3725
+2024-10-08 22:52:46,SharePoint - Google Chrome,chrome.exe,2823
+2024-10-08 23:06:53,Confluence - Google Chrome,chrome.exe,2536
+2024-10-08 23:19:26,Raport_sprzedaży.xlsx - Excel,excel.exe,5995
+2024-10-08 23:26:39,Workday - Google Chrome,chrome.exe,2591
+2024-10-08 23:29:14,Skrzynka odbiorcza - Outlook,outlook.exe,6616
+2024-10-08 23:40:42,Workday - Google Chrome,chrome.exe,6783
+2024-10-08 23:53:29,KPI_dashboard.xlsx - Excel,excel.exe,6377
+2024-10-08 23:56:06,GitHub - Google Chrome,chrome.exe,4983
+2024-10-09 00:02:07,Workday - Google Chrome,chrome.exe,3264
+2024-10-09 01:10:43,Budżet_Q4.xlsx - Excel,excel.exe,2664
+2024-10-09 01:13:53,Power BI - Google Chrome,chrome.exe,6498
+2024-10-09 18:16:03,JIRA - Google Chrome,chrome.exe,1646
+2024-10-09 18:16:55,Analiza_danych.xlsx - Excel,excel.exe,3810
+2024-10-09 18:19:45,app.js - Visual Studio Code,code.exe,4379
+2024-10-09 18:26:46,JIRA - Google Chrome,chrome.exe,2224
+2024-10-09 18:35:36,general - Slack,slack.exe,4294
+2024-10-09 20:28:39,database.sql - Visual Studio Code,code.exe,7109
+2024-10-09 20:31:29,Stack Overflow - Google Chrome,chrome.exe,3719
+2024-10-09 20:38:25,random - Slack,slack.exe,3475
+2024-10-09 20:50:20,config.yaml - Visual Studio Code,code.exe,2798
+2024-10-09 20:51:52,Kalendarz - Outlook,outlook.exe,6694
+2024-10-09 21:03:34,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5628
+2024-10-09 21:14:56,Confluence - Google Chrome,chrome.exe,7910
+2024-10-09 20:25:50,Spotkanie: Review - Outlook,outlook.exe,2253
+2024-10-09 20:26:31,Analiza_danych.xlsx - Excel,excel.exe,7363
+2024-10-09 21:30:18,Review_Q3.pptx - PowerPoint,powerpnt.exe,6760
+2024-10-09 21:44:30,Kalendarz - Outlook,outlook.exe,4927
+2024-10-09 21:45:35,Raport_sprzedaży.xlsx - Excel,excel.exe,3925
+2024-10-09 21:48:27,Review_Q3.pptx - PowerPoint,powerpnt.exe,5739
+2024-10-09 18:59:09,Spotkanie: Review projektu - Microsoft Teams,teams.exe,2871
+2024-10-09 19:12:00,Review_Q3.pptx - PowerPoint,powerpnt.exe,5209
+2024-10-09 19:15:43,Spotkanie: Review projektu - Microsoft Teams,teams.exe,2389
+2024-10-09 19:21:15,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1062
+2024-10-09 21:30:20,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,6236
+2024-10-09 21:39:04,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,4216
+2024-10-09 21:46:29,Czat zespołu - Microsoft Teams,teams.exe,7475
+2024-10-09 21:48:20,Review_Q3.pptx - PowerPoint,powerpnt.exe,6590
+2024-10-09 21:51:24,Microsoft Teams,teams.exe,6081
+2024-10-09 21:53:26,Microsoft Teams,teams.exe,6113
+2024-10-09 19:05:29,Review_Q3.pptx - PowerPoint,powerpnt.exe,1392
+2024-10-09 19:06:23,Spotkanie: Review projektu - Microsoft Teams,teams.exe,3852
+2024-10-09 19:16:10,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,3451
+2024-10-09 19:19:41,Spotkanie: Review - Outlook,outlook.exe,3260
+2024-10-09 19:22:23,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6645
+2024-10-09 19:34:47,Stack Overflow - Google Chrome,chrome.exe,1886
+2024-10-09 19:40:58,Outlook,outlook.exe,4287
+2024-10-09 20:46:08,Microsoft Teams,teams.exe,5019
+2024-10-09 22:55:38,Power BI - Google Chrome,chrome.exe,5268
+2024-10-09 22:57:37,Czat zespołu - Microsoft Teams,teams.exe,4818
+2024-10-09 23:12:00,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,4880
+2024-10-09 23:23:59,Spotkanie: Review projektu - Microsoft Teams,teams.exe,6736
+2024-10-09 23:26:51,Czat zespołu - Microsoft Teams,teams.exe,2795
+2024-10-09 20:36:43,Review_Q3.pptx - PowerPoint,powerpnt.exe,2982
+2024-10-09 20:46:14,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,6053
+2024-10-09 20:49:47,Czat zespołu - Microsoft Teams,teams.exe,3287
+2024-10-09 21:03:58,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,3123
+2024-10-09 21:08:12,Czat zespołu - Microsoft Teams,teams.exe,4076
+2024-10-09 21:22:55,Spotkanie: Review projektu - Microsoft Teams,teams.exe,5641
+2024-10-09 21:36:36,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7392
+2024-10-09 18:47:22,Czat zespołu - Microsoft Teams,teams.exe,6157
+2024-10-09 22:54:56,Nowa wiadomość - Outlook,outlook.exe,3743
+2024-10-09 22:57:37,Microsoft Teams,teams.exe,7494
+2024-10-09 22:59:45,Power BI - Google Chrome,chrome.exe,4290
+2024-10-09 23:04:57,Skrzynka odbiorcza - Outlook,outlook.exe,3144
+2024-10-09 23:16:47,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,6889
+2024-10-09 23:25:12,Confluence - Google Chrome,chrome.exe,4633
+2024-10-09 23:30:21,Nowa wiadomość - Outlook,outlook.exe,5175
+2024-10-09 23:31:34,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,2796
+2024-10-09 23:44:31,Stack Overflow - Google Chrome,chrome.exe,2961
+2024-10-09 20:56:29,Skrzynka odbiorcza - Outlook,outlook.exe,7512
+2024-10-09 19:05:43,Microsoft Teams,teams.exe,5217
+2024-10-09 19:07:42,Skrzynka odbiorcza - Outlook,outlook.exe,2881
+2024-10-09 20:43:16,Kalendarz - Outlook,outlook.exe,3116
+2024-10-09 20:53:03,KPI_dashboard.xlsx - Excel,excel.exe,1505
+2024-10-09 20:59:52,Stack Overflow - Google Chrome,chrome.exe,6962
+2024-10-09 21:12:59,KPI_dashboard.xlsx - Excel,excel.exe,1610
+2024-10-09 21:14:23,GitHub - Google Chrome,chrome.exe,4458
+2024-10-09 18:57:43,GitHub - Google Chrome,chrome.exe,2234
+2024-10-09 19:01:49,Kalendarz - Outlook,outlook.exe,3561
+2024-10-09 20:53:28,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,5510
+2024-10-09 21:04:07,script.py - Visual Studio Code,code.exe,7080
+2024-10-09 21:06:04,JIRA - Google Chrome,chrome.exe,3717
+2024-10-09 21:13:34,Outlook,outlook.exe,2083
+2024-10-09 21:23:03,Budżet_Q4.xlsx - Excel,excel.exe,2858
+2024-10-09 21:37:37,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,3294
+2024-10-09 21:49:27,Nowa wiadomość - Outlook,outlook.exe,4678
+2024-10-09 21:56:38,Budżet_Q4.xlsx - Excel,excel.exe,2773
+2024-10-09 22:08:24,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,1466
+2024-10-09 22:22:18,Outlook,outlook.exe,4066
+2024-10-09 22:26:35,Budżet_Q4.xlsx - Excel,excel.exe,5738
+2024-10-09 22:32:45,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,5626
+2024-10-09 22:34:15,Outlook,outlook.exe,6590
+2024-10-09 22:47:29,KPI_dashboard.xlsx - Excel,excel.exe,3784
+2024-10-09 22:54:39,Review_Q3.pptx - PowerPoint,powerpnt.exe,4327
+2024-10-09 22:59:28,Outlook,outlook.exe,7769
+2024-10-09 23:14:19,Budżet_Q4.xlsx - Excel,excel.exe,7863
+2024-10-09 23:15:48,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,1251
+2024-10-09 23:22:55,Kalendarz - Outlook,outlook.exe,7487
+2024-10-09 20:34:43,Microsoft Teams,teams.exe,2354
+2024-10-09 20:47:49,Spotkanie: Review - Outlook,outlook.exe,7059
+2024-10-09 21:01:14,ServiceNow - Google Chrome,chrome.exe,6890
+2024-10-09 21:08:39,Raport_sprzedaży.xlsx - Excel,excel.exe,3163
+2024-10-09 21:22:20,JIRA - Google Chrome,chrome.exe,3118
+2024-10-09 21:25:04,Confluence - Google Chrome,chrome.exe,3684
+2024-10-09 21:34:26,Analiza_danych.xlsx - Excel,excel.exe,5664
+2024-10-09 21:41:37,ServiceNow - Google Chrome,chrome.exe,7757
+2024-10-09 21:56:35,Stack Overflow - Google Chrome,chrome.exe,3718
+2024-10-09 22:10:38,Raport_sprzedaży.xlsx - Excel,excel.exe,4182
+2024-10-09 22:18:47,ServiceNow - Google Chrome,chrome.exe,2159
+2024-10-09 22:20:23,Stack Overflow - Google Chrome,chrome.exe,3923
+2024-10-09 22:25:58,Budżet_Q4.xlsx - Excel,excel.exe,1565
+2024-10-09 22:31:01,Salesforce - Google Chrome,chrome.exe,7511
+2024-10-09 22:35:09,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,6918
+2024-10-09 22:43:45,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7018
+2024-10-09 22:57:13,Microsoft Teams,teams.exe,2004
+2024-10-09 23:01:56,Czat zespołu - Microsoft Teams,teams.exe,7331
+2024-10-09 23:05:12,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,4291
+2024-10-09 23:08:14,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4493
+2024-10-09 19:12:19,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,7859
+2024-10-09 19:24:19,Skrzynka odbiorcza - Outlook,outlook.exe,4105
+2024-10-09 19:38:10,Czat zespołu - Microsoft Teams,teams.exe,2002
+2024-10-09 19:50:44,Salesforce - Google Chrome,chrome.exe,3173
+2024-10-09 19:53:26,Kalendarz - Outlook,outlook.exe,5887
+2024-10-09 20:57:47,Spotkanie: Review projektu - Microsoft Teams,teams.exe,7800
+2024-10-09 21:01:58,Workday - Google Chrome,chrome.exe,4058
+2024-10-09 21:12:06,Skrzynka odbiorcza - Outlook,outlook.exe,3154
+2024-10-09 21:18:09,Czat zespołu - Microsoft Teams,teams.exe,1727
+2024-10-09 21:24:20,Stack Overflow - Google Chrome,chrome.exe,5594
+2024-10-09 21:29:28,Nowa wiadomość - Outlook,outlook.exe,2834
+2024-10-09 21:32:48,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5004
+2024-10-09 21:45:04,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,7439
+2024-10-09 20:59:44,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4067
+2024-10-09 21:04:23,Review_Q3.pptx - PowerPoint,powerpnt.exe,1213
+2024-10-09 21:16:32,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,3592
+2024-10-09 21:20:35,Nowa wiadomość - Outlook,outlook.exe,2221
+2024-10-09 21:35:15,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,2021
+2024-10-09 21:49:54,Stack Overflow - Google Chrome,chrome.exe,3326
+2024-10-09 22:02:32,Skrzynka odbiorcza - Outlook,outlook.exe,7644
+2024-10-09 22:11:52,Outlook,outlook.exe,2383
+2024-10-09 18:24:13,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,1083
+2024-10-09 18:33:08,GitHub - Google Chrome,chrome.exe,1838
+2024-10-09 18:41:23,Outlook,outlook.exe,3976
+2024-10-09 21:50:26,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,7234
+2024-10-09 21:51:35,Workday - Google Chrome,chrome.exe,5796
+2024-10-09 21:56:29,Outlook,outlook.exe,7242
+2024-10-09 21:58:05,Microsoft Teams,teams.exe,7509
+2024-10-09 22:04:31,JIRA - Google Chrome,chrome.exe,5558
+2024-10-09 22:10:32,Skrzynka odbiorcza - Outlook,outlook.exe,4554
+2024-10-09 22:21:28,JIRA - Google Chrome,chrome.exe,6273
+2024-10-09 22:22:47,Raport_sprzedaży.xlsx - Excel,excel.exe,4780
+2024-10-09 22:34:33,Stack Overflow - Google Chrome,chrome.exe,4154
+2024-10-09 22:46:30,Power BI - Google Chrome,chrome.exe,2322
+2024-10-09 18:00:38,Raport_sprzedaży.xlsx - Excel,excel.exe,2468
+2024-10-09 18:03:28,JIRA - Google Chrome,chrome.exe,4874
+2024-10-09 18:07:34,SharePoint - Google Chrome,chrome.exe,2752
+2024-10-09 18:12:08,Analiza_danych.xlsx - Excel,excel.exe,3838
+2024-10-09 18:22:52,SharePoint - Google Chrome,chrome.exe,7735
+2024-10-09 18:27:52,GitHub - Google Chrome,chrome.exe,7979
+2024-10-09 18:35:13,KPI_dashboard.xlsx - Excel,excel.exe,2233
+2024-10-09 18:39:44,Spotkanie: Review - Outlook,outlook.exe,7039
+2024-10-09 18:41:15,Raport_sprzedaży.xlsx - Excel,excel.exe,6704
+2024-10-09 18:55:09,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5953
+2024-10-09 20:57:48,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,5251
+2024-10-09 21:05:33,Nowa wiadomość - Outlook,outlook.exe,3106
+2024-10-09 21:09:42,Budżet_Q4.xlsx - Excel,excel.exe,4052
+2024-10-09 21:12:35,Review_Q3.pptx - PowerPoint,powerpnt.exe,6559
+2024-10-09 19:23:22,Nowa wiadomość - Outlook,outlook.exe,2615
+2024-10-09 21:14:05,KPI_dashboard.xlsx - Excel,excel.exe,7538
+2024-10-09 21:14:55,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,3065
+2024-10-09 22:47:30,Spotkanie: Review - Outlook,outlook.exe,7251
+2024-10-09 22:57:32,KPI_dashboard.xlsx - Excel,excel.exe,6084
+2024-10-09 23:05:43,Review_Q3.pptx - PowerPoint,powerpnt.exe,7654
+2024-10-09 23:16:00,Kalendarz - Outlook,outlook.exe,4648
+2024-10-09 23:22:29,KPI_dashboard.xlsx - Excel,excel.exe,4658
+2024-10-09 23:24:01,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5833
+2024-10-09 23:30:24,Spotkanie: Review - Outlook,outlook.exe,7711
+2024-10-09 23:31:45,Budżet_Q4.xlsx - Excel,excel.exe,1241
+2024-10-09 23:38:52,Review_Q3.pptx - PowerPoint,powerpnt.exe,3221
+2024-10-09 23:41:14,Spotkanie: Review - Outlook,outlook.exe,4236
+2024-10-09 23:52:11,Raport_sprzedaży.xlsx - Excel,excel.exe,1820
+2024-10-09 23:58:29,Review_Q3.pptx - PowerPoint,powerpnt.exe,5561
+2024-10-10 00:09:36,Kalendarz - Outlook,outlook.exe,1034
+2024-10-10 00:21:03,Budżet_Q4.xlsx - Excel,excel.exe,7755
+2024-10-10 02:19:05,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,4000
+2024-10-10 02:21:07,Outlook,outlook.exe,2214
+2024-10-10 02:30:17,Budżet_Q4.xlsx - Excel,excel.exe,3307
+2024-10-10 04:27:25,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,5525
+2024-10-10 04:31:18,Spotkanie: Review - Outlook,outlook.exe,3576
+2024-10-10 04:32:36,Raport_sprzedaży.xlsx - Excel,excel.exe,7300
+2024-10-10 04:34:17,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,3862
+2024-10-10 04:46:48,Spotkanie: Review - Outlook,outlook.exe,7878
+2024-10-10 04:59:35,Analiza_danych.xlsx - Excel,excel.exe,3251
+2024-10-10 05:09:01,Review_Q3.pptx - PowerPoint,powerpnt.exe,4643
+2024-10-10 05:11:25,Spotkanie: Review - Outlook,outlook.exe,5021
+2024-10-10 05:14:42,Budżet_Q4.xlsx - Excel,excel.exe,6368
+2024-10-10 05:24:22,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,5286
+2024-10-10 05:34:33,Skrzynka odbiorcza - Outlook,outlook.exe,6674
+2024-10-10 05:37:14,Budżet_Q4.xlsx - Excel,excel.exe,6141
+2024-10-10 07:49:25,Nowa wiadomość - Outlook,outlook.exe,5877
+2024-10-10 07:54:00,Budżet_Q4.xlsx - Excel,excel.exe,7617
+2024-10-10 08:06:27,Kalendarz - Outlook,outlook.exe,3173
+2024-10-10 19:12:26,Analiza_danych.xlsx - Excel,excel.exe,3106
+2024-10-10 19:25:34,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,4157
+2024-10-10 19:37:02,Kalendarz - Outlook,outlook.exe,2310
+2024-10-10 19:44:21,Outlook,outlook.exe,4886
+2024-10-10 19:53:55,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,7579
+2024-10-10 19:54:33,ServiceNow - Google Chrome,chrome.exe,3600
+2024-10-10 20:02:46,Nowa wiadomość - Outlook,outlook.exe,6244
+2024-10-10 18:10:53,Spotkanie: Review - Outlook,outlook.exe,5100
+2024-10-10 19:03:35,Stack Overflow - Google Chrome,chrome.exe,7372
+2024-10-10 19:10:30,Raport_sprzedaży.xlsx - Excel,excel.exe,6617
+2024-10-10 19:13:29,SharePoint - Google Chrome,chrome.exe,1229
+2024-10-10 19:23:13,Salesforce - Google Chrome,chrome.exe,2196
+2024-10-10 19:31:09,Budżet_Q4.xlsx - Excel,excel.exe,4601
+2024-10-10 19:33:03,JIRA - Google Chrome,chrome.exe,6072
+2024-10-10 19:39:51,Salesforce - Google Chrome,chrome.exe,7502
+2024-10-10 20:46:13,KPI_dashboard.xlsx - Excel,excel.exe,4582
+2024-10-10 20:59:04,Workday - Google Chrome,chrome.exe,6657
+2024-10-10 19:12:47,SharePoint - Google Chrome,chrome.exe,1591
+2024-10-10 22:17:08,Raport_sprzedaży.xlsx - Excel,excel.exe,6170
+2024-10-10 22:24:01,SharePoint - Google Chrome,chrome.exe,4227
+2024-10-10 22:33:32,Confluence - Google Chrome,chrome.exe,5186
+2024-10-10 22:39:52,Raport_sprzedaży.xlsx - Excel,excel.exe,3014
+2024-10-10 22:42:05,Confluence - Google Chrome,chrome.exe,2492
+2024-10-10 22:52:04,Stack Overflow - Google Chrome,chrome.exe,5070
+2024-10-10 23:06:58,Analiza_danych.xlsx - Excel,excel.exe,6311
+2024-10-10 23:21:10,SharePoint - Google Chrome,chrome.exe,3475
+2024-10-10 23:21:56,Stack Overflow - Google Chrome,chrome.exe,7421
+2024-10-10 23:25:10,Raport_sprzedaży.xlsx - Excel,excel.exe,7944
+2024-10-10 23:38:24,Salesforce - Google Chrome,chrome.exe,7851
+2024-10-10 22:40:20,JIRA - Google Chrome,chrome.exe,2499
+2024-10-10 22:54:53,Budżet_Q4.xlsx - Excel,excel.exe,4439
+2024-10-10 23:08:55,Power BI - Google Chrome,chrome.exe,6584
+2024-10-11 00:20:09,GitHub - Google Chrome,chrome.exe,6695
+2024-10-11 00:32:08,Analiza_danych.xlsx - Excel,excel.exe,4896
+2024-10-11 00:38:42,Salesforce - Google Chrome,chrome.exe,1222
+2024-10-11 00:43:29,Confluence - Google Chrome,chrome.exe,1832
+2024-10-11 00:44:18,KPI_dashboard.xlsx - Excel,excel.exe,3246
+2024-10-11 02:32:29,app.js - Visual Studio Code,code.exe,5661
+2024-10-11 02:43:03,Confluence - Google Chrome,chrome.exe,4820
+2024-10-11 02:47:58,project-alpha - Slack,slack.exe,3169
+2024-10-11 02:59:24,database.sql - Visual Studio Code,code.exe,5718
+2024-10-11 03:09:01,ServiceNow - Google Chrome,chrome.exe,6838
+2024-10-11 03:22:14,random - Slack,slack.exe,4014
+2024-10-11 03:23:05,database.sql - Visual Studio Code,code.exe,7482
+2024-10-11 03:24:43,Outlook,outlook.exe,7998
+2024-10-11 03:31:01,Analiza_danych.xlsx - Excel,excel.exe,6011
+2024-10-11 03:42:00,Kalendarz - Outlook,outlook.exe,1816
+2024-10-11 03:53:21,Raport_sprzedaży.xlsx - Excel,excel.exe,6968
+2024-10-11 04:03:39,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,3813
+2024-10-11 21:14:58,Outlook,outlook.exe,2145
+2024-10-11 21:28:38,Czat zespołu - Microsoft Teams,teams.exe,5784
+2024-10-11 21:35:46,JIRA - Google Chrome,chrome.exe,1025
+2024-10-11 21:46:52,Outlook,outlook.exe,4039
+2024-10-11 21:52:35,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,1459
+2024-10-11 22:04:57,JIRA - Google Chrome,chrome.exe,5623
+2024-10-11 22:05:34,script.py - Visual Studio Code,code.exe,1371
+2024-10-11 22:08:38,Workday - Google Chrome,chrome.exe,4198
+2024-10-11 19:09:21,project-alpha - Slack,slack.exe,2762
+2024-10-11 19:16:58,app.js - Visual Studio Code,code.exe,6037
+2024-10-11 19:24:51,Salesforce - Google Chrome,chrome.exe,1270
+2024-10-11 19:25:48,project-alpha - Slack,slack.exe,7438
+2024-10-11 19:27:35,config.yaml - Visual Studio Code,code.exe,2555
+2024-10-11 19:36:47,Power BI - Google Chrome,chrome.exe,7781
+2024-10-11 19:48:43,general - Slack,slack.exe,1270
+2024-10-11 20:03:14,database.sql - Visual Studio Code,code.exe,6687
+2024-10-11 20:08:15,Power BI - Google Chrome,chrome.exe,5466
+2024-10-11 20:17:40,urgent - Slack,slack.exe,5597
+2024-10-11 20:20:33,script.py - Visual Studio Code,code.exe,5042
+2024-10-11 20:23:39,app.js - Visual Studio Code,code.exe,6668
+2024-10-11 20:34:53,SharePoint - Google Chrome,chrome.exe,6452
+2024-10-11 20:35:23,project-alpha - Slack,slack.exe,5804
+2024-10-11 20:41:31,config.yaml - Visual Studio Code,code.exe,2590
+2024-10-11 20:47:04,Salesforce - Google Chrome,chrome.exe,7987
+2024-10-11 20:47:45,urgent - Slack,slack.exe,4648
+2024-10-11 20:50:36,database.sql - Visual Studio Code,code.exe,5507
+2024-10-11 21:51:44,Nowa wiadomość - Outlook,outlook.exe,3510
+2024-10-11 21:59:18,Budżet_Q4.xlsx - Excel,excel.exe,5248
+2024-10-11 22:06:28,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,3572
+2024-10-11 22:16:20,Spotkanie: Review - Outlook,outlook.exe,7411
+2024-10-11 22:29:01,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,2280
+2024-10-11 22:36:31,SharePoint - Google Chrome,chrome.exe,5678
+2024-10-11 22:40:17,Outlook,outlook.exe,6278
+2024-10-11 22:48:16,Spotkanie: Review projektu - Microsoft Teams,teams.exe,3802
+2024-10-11 23:01:16,ServiceNow - Google Chrome,chrome.exe,5862
+2024-10-11 23:01:58,Skrzynka odbiorcza - Outlook,outlook.exe,6918
+2024-10-11 23:04:16,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,1239
+2024-10-11 23:16:21,Skrzynka odbiorcza - Outlook,outlook.exe,5206
+2024-10-11 23:30:06,ServiceNow - Google Chrome,chrome.exe,2472
+2024-10-11 23:33:29,Analiza_danych.xlsx - Excel,excel.exe,1850
+2024-10-11 22:45:04,ServiceNow - Google Chrome,chrome.exe,4447
+2024-10-11 22:52:00,Power BI - Google Chrome,chrome.exe,7799
+2024-10-11 22:59:00,Budżet_Q4.xlsx - Excel,excel.exe,6130
+2024-10-11 23:08:23,Skrzynka odbiorcza - Outlook,outlook.exe,1937
+2024-10-11 23:21:11,Czat zespołu - Microsoft Teams,teams.exe,1907
+2024-10-11 23:27:13,Stack Overflow - Google Chrome,chrome.exe,3735
+2024-10-11 23:38:23,Spotkanie: Review projektu - Microsoft Teams,teams.exe,4407
+2024-10-11 23:46:03,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,4747
+2024-10-11 23:55:13,Czat zespołu - Microsoft Teams,teams.exe,5165
+2024-10-11 23:58:34,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4680
+2024-10-12 00:06:52,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,2435
+2024-10-12 01:35:14,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,7978
+2024-10-12 01:38:46,Spotkanie: Review projektu - Microsoft Teams,teams.exe,1109
+2024-10-12 01:42:28,Review_Q3.pptx - PowerPoint,powerpnt.exe,2694
+2024-10-12 01:55:52,Czat zespołu - Microsoft Teams,teams.exe,5510
+2024-10-12 02:10:35,Spotkanie: Review projektu - Microsoft Teams,teams.exe,7512
+2024-10-12 02:19:22,Prezentacja_zespołu.pptx - PowerPoint,powerpnt.exe,5538
+2024-10-12 02:19:53,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,6695
+2024-10-12 02:31:38,Microsoft Teams,teams.exe,6003
+2024-10-12 02:42:09,Review_Q3.pptx - PowerPoint,powerpnt.exe,1253
+2024-10-12 21:50:40,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,7871
+2024-10-12 21:55:29,Spotkanie: Review projektu - Microsoft Teams,teams.exe,1600
+2024-10-12 22:01:09,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,3573
+2024-10-12 22:04:40,Spotkanie: Review projektu - Microsoft Teams,teams.exe,3529
+2024-10-12 22:11:47,Spotkanie: Daily Standup - Microsoft Teams,teams.exe,4291
+2024-10-12 23:09:25,Spotkanie_klienta.pptx - PowerPoint,powerpnt.exe,1691
+2024-10-12 23:16:11,Spotkanie: Review - Outlook,outlook.exe,6016
+2024-10-12 23:18:54,Spotkanie 1:1 z managerem - Microsoft Teams,teams.exe,4158
+2024-10-12 23:28:05,Workday - Google Chrome,chrome.exe,5232
+2024-10-12 23:41:18,Outlook,outlook.exe,7274
+2024-10-12 23:43:48,Spotkanie: Planowanie sprintu - Microsoft Teams,teams.exe,4623
+2024-10-12 23:52:58,Salesforce - Google Chrome,chrome.exe,6068
+2024-10-12 23:55:11,Kalendarz - Outlook,outlook.exe,6485
+2024-10-13 00:08:41,Microsoft Teams,teams.exe,7939
+2024-10-13 00:15:18,JIRA - Google Chrome,chrome.exe,6352
+2024-10-13 00:21:17,Outlook,outlook.exe,5887
+2024-10-13 22:23:20,Microsoft Teams,teams.exe,2072
+2024-10-13 21:30:38,GitHub - Google Chrome,chrome.exe,4698
+2024-10-13 21:41:12,Outlook,outlook.exe,6143
+2024-10-13 22:18:56,Spotkanie: Review projektu - Microsoft Teams,teams.exe,3338
