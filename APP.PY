@@ -6,10 +6,12 @@ from Process_analyse import proc_analysis
 import csv
 from datetime import datetime
 import os
+from flask import send_from_directory
 
 app = Flask(__name__)
 CORS(app)
 
+PLOT_FOLDER = os.path.join(os.getcwd(), "plots")  # <-- poprawnie
 CSV_FILE_2 = "data/data_html.csv"
 CSV_FILE = "data/logs.csv"
 os.makedirs("data", exist_ok=True)
@@ -19,9 +21,6 @@ def start_processbot():
     collector_to_csv.main()  # uruchamiamy monitor w tle
 
 threading.Thread(target=start_processbot, daemon=True).start()
-
-# ---------- Wątek monitorujący "internetowe" logi ----------
-
 
 # ---------- Flask endpoints ----------
 @app.route("/log", methods=["POST"])
@@ -43,17 +42,23 @@ def log_time():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # Lista plików w folderze plots
+    plots = sorted(os.listdir(PLOT_FOLDER))
+    return render_template('index.html', plots=plots)
 
-@app.route('/api/logs')
-def api_logs():
-    logs = []
-    if os.path.exists(CSV_FILE_2):
-        with open(CSV_FILE_2, newline="", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                logs.append(row)
-    return jsonify(logs)
+@app.route('/api/plots')
+def api_plots():
+    if not os.path.exists(PLOT_FOLDER):
+        return jsonify([])
+    # Zwracamy tylko pliki PNG/JPG itp.
+    plots = [f for f in os.listdir(PLOT_FOLDER) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))]
+    plots.sort()
+    return jsonify(plots)
+
+
+@app.route('/plots/<filename>')
+def plot_file(filename):
+    return send_from_directory(PLOT_FOLDER, filename)
 
 # ---------- Uruchomienie Flask ----------
 if __name__ == "__main__":
