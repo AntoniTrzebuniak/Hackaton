@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import threading
 from Collector import collector_to_csv
+from Process_analyse import proc_analysis
 import csv
 from datetime import datetime
 import os
