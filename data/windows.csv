@@ -1,107 +1,72 @@
 timestamp,title,process,pid
-2025-10-04 14:32:41,collector_to_csv.py - HACKATON - Visual Studio Code,,0
-2025-10-04 14:32:49,events.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:33:17,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:33:20,Przełączanie zadań,,0
-2025-10-04 14:33:21,● dirs.py - meteopy - Visual Studio Code,,0
-2025-10-04 14:33:22,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:33:27,● dirs.py - meteopy - Visual Studio Code,,0
-2025-10-04 14:33:28,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:33:43,Przełączanie zadań,,0
-2025-10-04 14:33:44,,,0
-2025-10-04 14:33:45,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:33:47,Przełączanie zadań,,0
-2025-10-04 14:33:50,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:33:56,● dirs.py - meteopy - Visual Studio Code,,0
-2025-10-04 14:33:57,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:34:09,,,0
-2025-10-04 14:34:10,JSON data file management - Claude – Opera,,0
-2025-10-04 14:34:12,AntoniTrzebuniak/Hackaton – Opera,,0
-2025-10-04 14:34:15,Editing Hackaton/README.md at main · AntoniTrzebuniak/Hackaton – Opera,,0
-2025-10-04 14:34:36,Hackaton/README.md at main · AntoniTrzebuniak/Hackaton – Opera,,0
-2025-10-04 14:34:56,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:34:59,Hackaton/README.md at main · AntoniTrzebuniak/Hackaton – Opera,,0
-2025-10-04 14:35:00,TensorFlow – Opera,,0
-2025-10-04 14:35:02,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:35:05,TensorFlow – Opera,,0
-2025-10-04 14:35:06,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:35:14,pandas.to_datetime — pandas 2.3.3 documentation – Opera,,0
-2025-10-04 14:35:16,Przełączanie zadań,,0
-2025-10-04 14:35:17,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:35:22,browser_history.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:35:32,Przełączanie zadań,,0
-2025-10-04 14:35:33,browser_history.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:35:39,collector_to_csv.py - HACKATON - Visual Studio Code,,0
-2025-10-04 14:53:13,collector_to_csv.py - HACKATON - Visual Studio Code,,0
-2025-10-04 14:53:18,● collector_to_csv.py - HACKATON - Visual Studio Code,,0
-2025-10-04 14:53:31,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:53:33,events.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:53:44,HACKATON — Eksplorator plików,,0
-2025-10-04 14:53:45,Przełączanie zadań,,0
-2025-10-04 14:53:46,HTML Forms – Opera,,0
-2025-10-04 14:53:47,Szybkie wybieranie – Opera,,0
-2025-10-04 14:53:48,HACKATON — Eksplorator plików,,0
-2025-10-04 14:53:49,events.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:54:09,clipboard.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:54:12,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:54:18,events.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:54:20,clipboard.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:54:22,browser_history.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:54:23,clipboard.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:55:46,,,0
-2025-10-04 14:55:47,clipboard.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:55:48,Szybkie wybieranie – Opera,,0
-2025-10-04 14:55:55,ProcessBot automation hackathon – Opera,,0
-2025-10-04 14:55:58,Szybkie wybieranie – Opera,,0
-2025-10-04 14:56:03,flask - Szukaj w Google – Opera,,0
-2025-10-04 14:56:07,Welcome to Flask — Flask Documentation (3.1.x) – Opera,,0
-2025-10-04 14:56:19,JSON data file management - Claude – Opera,,0
-2025-10-04 14:57:15,clipboard.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:57:20,JSON data file management - Claude – Opera,,0
-2025-10-04 14:59:52,Przełączanie zadań,,0
-2025-10-04 14:59:53,clipboard.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 14:59:59,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:00:07,JSON data file management - Claude – Opera,,0
-2025-10-04 15:03:35,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:03:38,browser_history_collector.py - HACKATON - Visual Studio Code,,0
-2025-10-04 15:03:55,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:04:51,JSON data file management - Claude – Opera,,0
-2025-10-04 15:05:57,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:06:01,Przełączanie zadań,,0
-2025-10-04 15:06:02,● dirs.py - meteopy - Visual Studio Code,,0
-2025-10-04 15:06:03,Przełączanie zadań,,0
-2025-10-04 15:06:04,collector_json.py - Hackaton - Visual Studio Code,,0
-2025-10-04 15:06:09,,,0
-2025-10-04 15:06:10,Hackaton — Eksplorator plików,,0
-2025-10-04 15:06:12,HACKATON — Eksplorator plików,,0
-2025-10-04 15:07:47,collector_to_csv.py - Hackaton - Visual Studio Code,,0
-2025-10-04 15:07:52,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:07:53,Przełączanie zadań,,0
-2025-10-04 15:07:54,JSON data file management - Claude – Opera,,0
-2025-10-04 15:08:09,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:08:11,,,0
-2025-10-04 15:08:12,Przełączanie zadań,,0
-2025-10-04 15:08:13,collector_to_csv.py - Hackaton - Visual Studio Code,,0
-2025-10-04 15:08:14,JSON data file management - Claude – Opera,,0
-2025-10-04 15:08:15,collector_to_csv.py - Hackaton - Visual Studio Code,,0
-2025-10-04 15:08:16,Przełączanie zadań,,0
-2025-10-04 15:08:17,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:08:19,Visual Studio Code,,0
-2025-10-04 15:08:20,windows.csv - HACKATON - Visual Studio Code,,0
-2025-10-04 15:08:39,Przełączanie zadań,,0
-2025-10-04 15:08:40,collector_to_csv.py - Hackaton - Visual Studio Code,,0
-2025-10-04 15:08:56,Przełączanie zadań,,0
-2025-10-04 15:08:58,collector_to_csv.py - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:03,JSON data file management - Claude – Opera,,0
-2025-10-04 15:09:04,APP.PY - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:05,JSON data file management - Claude – Opera,,0
-2025-10-04 15:09:11,APP.PY - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:13,● APP.PY - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:14,APP.PY - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:17,JSON data file management - Claude – Opera,,0
-2025-10-04 15:09:27,APP.PY - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:30,index.html - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:32,● index.html - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:42,index.html - Hackaton - Visual Studio Code,,0
-2025-10-04 15:09:43,JSON data file management - Claude – Opera,,0
-2025-10-04 15:10:03,index.html - Hackaton - Visual Studio Code,,0
+2025-10-04 16:48:32,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:49:26,collector_to_csv.py - HACKATON - Visual Studio Code,Code.exe,5068
+2025-10-04 16:50:23,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:50:26,Przełączanie zadań,explorer.exe,16892
+2025-10-04 16:50:27,collector_to_csv.py - HACKATON - Visual Studio Code,Code.exe,5068
+2025-10-04 16:50:29,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:50:37,windows.csv - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:04,windows.csv - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:07,index.html - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:08,windows.csv - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:09,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:34,COMMIT_EDITMSG - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:36,● COMMIT_EDITMSG - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:38,Visual Studio Code,Code.exe,5068
+2025-10-04 16:51:39,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:52:49,Visual Studio Code,Code.exe,5068
+2025-10-04 16:52:56,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:03,index.html - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:04,Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:05,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:09,Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:10,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:31,Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:33,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:54,index_style.css - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:57,Visual Studio Code,Code.exe,5068
+2025-10-04 16:53:58,index_style.css - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:13,Merging: index_style.css - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:15,Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:16,Merging: index_style.css - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:17,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:26,index_style.css - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:27,Visual Studio Code,Code.exe,5068
+2025-10-04 16:54:28,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:08,collector_json.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:16,Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:17,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:20,APP.PY - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:45,Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:47,APP.PY - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:56,Visual Studio Code,Code.exe,5068
+2025-10-04 16:55:58,APP.PY - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:56:57,Visual Studio Code,Code.exe,5068
+2025-10-04 16:57:01,APP.PY - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:57:23,Program Manager,explorer.exe,16892
+2025-10-04 16:57:35,hack — Eksplorator plików,explorer.exe,16892
+2025-10-04 16:57:38,Visual Studio Code,Code.exe,5068
+2025-10-04 16:57:39,hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:57:40,Welcome - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:57:41,Przełączanie zadań,explorer.exe,16892
+2025-10-04 16:57:43,Prosty kod Python do wykrywania kopiowania - DeepSeek – Opera,opera.exe,18264
+2025-10-04 16:57:45,Narzędzia do wykresów interaktywnych – Opera,opera.exe,18264
+2025-10-04 16:57:46,Hackaton/README.md at main · AntoniTrzebuniak/Hackaton – Opera,opera.exe,18264
+2025-10-04 16:57:54,AntoniTrzebuniak (Antoni Trzebuniak) – Opera,opera.exe,18264
+2025-10-04 16:57:57,Your Repositories – Opera,opera.exe,18264
+2025-10-04 16:57:59,AntoniTrzebuniak/Hackaton – Opera,opera.exe,18264
+2025-10-04 16:58:02,Welcome - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:58:40,collector_to_csv.py - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:58:46,windows.csv - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:58:49,Przełączanie zadań,explorer.exe,16892
+2025-10-04 16:58:50,AntoniTrzebuniak/Hackaton – Opera,opera.exe,18264
+2025-10-04 16:58:51,windows.csv - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:58:52,Przełączanie zadań,explorer.exe,16892
+2025-10-04 16:58:54,APP.PY - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:58:57,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:59:00,windows.csv - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:59:04,collector_to_csv.py - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:59:06,● collector_to_csv.py - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:59:08,collector_to_csv.py - hack - Visual Studio Code,Code.exe,5068
+2025-10-04 16:59:11,collector_to_csv.py - Hackaton - Visual Studio Code,Code.exe,5068
+2025-10-04 16:59:14,windows.csv - Hackaton - Visual Studio Code,Code.exe,5068

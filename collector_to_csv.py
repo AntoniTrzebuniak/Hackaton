@@ -22,6 +22,9 @@ import tempfile
 import sqlite3
 import csv
 import keyboard
+import win32gui
+import win32process
+import psutil
 
 import psutil
 import pyperclip
@@ -82,50 +85,26 @@ def append_to_csv(filepath, row):
             writer.writerow(row)
 
 def get_active_window_info():
-    """
-    Try to return (title, pid, process_name). Some platforms may not provide PID.
-    """
-    title = None
-    pid = None
-    process_name = None
+    """Pobiera nazwę procesu aktywnego okna"""
     try:
-        win = gw.getActiveWindow()
-        if win:
-            title = win.title
-    except Exception:
-        win = None
-
-    # Fallback strategies:
-    if title is None:
-        plat = platform.system()
-        if plat == "Darwin":
-            try:
-                sc = 'tell application "System Events" to get name of first process whose frontmost is true'
-                app_name = os.popen('osascript -e \'{}\''.format(sc)).read().strip()
-                title = app_name
-            except Exception:
-                title = "Unknown"
-        else:
-            title = "Unknown"
-
-    # Try to find a process by matching window title among running processes (best-effort)
-    try:
-        for p in psutil.process_iter(['pid', 'name', 'cmdline']):
-            try:
-                name = p.info.get('name') or ''
-                cmdline = ' '.join(p.info.get('cmdline') or [])
-                if title and (title.lower() in name.lower() or title.lower() in cmdline.lower()):
-                    pid = p.info['pid']
-                    process_name = name
-                    break
-            except Exception:
-                continue
-    except Exception:
-        pass
-
-    if process_name is None:
-        process_name = ""
-    return title, pid or 0, process_name
+        # Pobierz uchwyt do aktywnego okna
+        hwnd = win32gui.GetForegroundWindow()
+        
+        # Pobierz PID procesu
+        _, pid = win32process.GetWindowThreadProcessId(hwnd)
+        
+        # Pobierz informacje o procesie
+        process = psutil.Process(pid)
+        process_name = process.name()
+        
+        # Pobierz tytuł okna
+        window_title = win32gui.GetWindowText(hwnd)
+        
+        return window_title, pid, process_name
+        
+    except Exception as e:
+        print(f"Błąd: {e}")
+        return None, None, None
 
 # ---------- CSV helper with lock ----------
 csv_lock = threading.Lock()
