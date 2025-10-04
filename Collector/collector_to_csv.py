@@ -32,7 +32,7 @@ import pygetwindow as gw
 
 # ---------- Configuration ----------
 from pathlib import Path
-DATA_DIR = Path("../data")
+DATA_DIR = Path("./data")
 WINDOWS_CSV = DATA_DIR / "windows.csv"
 CLIPBOARD_CSV = DATA_DIR / "clipboard.csv"
 EVENTS_CSV = DATA_DIR / "events.csv"
