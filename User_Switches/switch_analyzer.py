@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Optional
+from pathlib import Path
 
 def load_and_sort_logs(path: str, ts_col: str = "timestamp") -> pd.DataFrame:
     """Wczytuje CSV i sortuje po kolumnie timestamp rosnąco."""
@@ -70,6 +71,6 @@ def plot_topN_heatmap(transitions: pd.DataFrame, top_n: int = 10):
     plt.show()
 
 if __name__ == "__main__":
-    df = load_and_sort_logs("../data/windows.csv")
+    df = load_and_sort_logs("./data/windows.csv")
     transitions = count_transitions(df)
     plot_topN_heatmap(transitions)
