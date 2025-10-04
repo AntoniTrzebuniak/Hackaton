@@ -68,3 +68,8 @@ def plot_topN_heatmap(transitions: pd.DataFrame, top_n: int = 10):
     plt.yticks(rotation=0)
     plt.tight_layout()
     plt.show()
+
+if __name__ == "__main__":
+    df = load_and_sort_logs("../data/windows.csv")
+    transitions = count_transitions(df)
+    plot_topN_heatmap(transitions)
