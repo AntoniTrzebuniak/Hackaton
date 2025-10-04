@@ -1,0 +1,12 @@
+timestamp,event_type,window_title,process,pid,associated_clipboard_timestamp
+2025-10-04 14:33:01,copy,events.csv - HACKATON - Visual Studio Code,,0,2025-10-04 14:33:01
+2025-10-04 14:35:46,copy,collector_to_csv.py - HACKATON - Visual Studio Code,,0,2025-10-04 14:35:46
+2025-10-04 14:35:51,copy,collector_to_csv.py - HACKATON - Visual Studio Code,,0,2025-10-04 14:35:51
+2025-10-04 14:53:17,copy,● collector_to_csv.py - HACKATON - Visual Studio Code,,0,2025-10-04 14:53:17
+2025-10-04 14:53:23,paste,● collector_to_csv.py - HACKATON - Visual Studio Code,,0,2025-10-04 14:53:23
+2025-10-04 14:53:47,paste,Szybkie wybieranie – Opera,,0,2025-10-04 14:53:47
+2025-10-04 15:00:06,copy,windows.csv - HACKATON - Visual Studio Code,,0,2025-10-04 15:00:06
+2025-10-04 15:00:08,paste,JSON data file management - Claude – Opera,,0,2025-10-04 15:00:08
+2025-10-04 15:09:12,paste,APP.PY - Hackaton - Visual Studio Code,,0,2025-10-04 15:09:12
+2025-10-04 15:09:31,paste,index.html - Hackaton - Visual Studio Code,,0,2025-10-04 15:09:31
+2025-10-04 15:10:08,copy,index.html - Hackaton - Visual Studio Code,,0,2025-10-04 15:10:08
