@@ -28,10 +28,12 @@ from pynput import keyboard
 import pygetwindow as gw
 
 # ---------- Configuration ----------
-WINDOWS_JSON = "data/windows.json"
-CLIPBOARD_JSON = "data/clipboard.json"
-EVENTS_JSON = "data/events.json"
-BROWSER_HISTORY_JSON = "data/browser_history.json"
+from pathlib import Path
+DATA_DIR = Path("./data")
+WINDOWS_JSON = DATA_DIR / "windows.json"
+CLIPBOARD_JSON = DATA_DIR / "clipboard.json"
+EVENTS_JSON = DATA_DIR / "events.json"
+BROWSER_HISTORY_JSON = DATA_DIR / "browser_history.json"
 
 ACTIVE_WINDOW_POLL_INTERVAL = 1.0   # seconds
 CLIPBOARD_POLL_INTERVAL = 0.5       # seconds
@@ -39,11 +41,14 @@ BROWSER_HISTORY_POLL_INTERVAL = 60  # seconds (sample every minute)
 # -----------------------------------
 
 # ---------- Helper utilities ----------
+
 def now_iso():
     return datetime.utcnow().isoformat() + "Z"
 
 def ensure_json_files():
-    """Initialize JSON files if they don't exist"""
+    """Initialize JSON files if they don't exist, and create data dir if needed"""
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
     for filepath in [WINDOWS_JSON, CLIPBOARD_JSON, EVENTS_JSON, BROWSER_HISTORY_JSON]:
         if not os.path.exists(filepath):
             with open(filepath, 'w') as f:
@@ -144,6 +149,7 @@ def log_event(event_type, title, pid, process, clipboard_timestamp=None):
         "pid": pid,
         "associated_clipboard_timestamp": clipboard_timestamp
     }
+    print("im here")
     append_to_json(EVENTS_JSON, data)
     return data["timestamp"]
 
@@ -170,64 +176,88 @@ def active_window_monitor(stop_event):
         time.sleep(ACTIVE_WINDOW_POLL_INTERVAL)
 
 # ---------- Clipboard monitor ----------
+# Global to track clipboard and prevent double-logging from keyboard events
+last_clipboard_content = None
+clipboard_lock = threading.Lock()
+
 def clipboard_monitor(stop_event):
-    last_clip = None
+    global last_clipboard_content
     while not stop_event.is_set():
         try:
             clip = pyperclip.paste()
         except Exception:
             clip = None
-        if clip and clip != last_clip:
-            title, pid, process = get_active_window_info()
-            clip_timestamp = log_clipboard(clip, title, pid, process)
-            print(f"[CLIP] {now_iso()} - clipboard changed (len={len(clip)}) in window '{title}'")
-            last_clip = clip
+        if clip and clip != last_clipboard_content:
+            with clipboard_lock:
+                if clip != last_clipboard_content:
+                    title, pid, process = get_active_window_info()
+                    clip_timestamp = log_clipboard(clip, title, pid, process)
+                    print(f"[CLIP] {now_iso()} - clipboard changed (len={len(clip)}) in window '{title}'")
+                    last_clipboard_content = clip
         time.sleep(CLIPBOARD_POLL_INTERVAL)
 
 # ---------- Keyboard listener for copy/paste events ----------
 def keyboard_listener_thread(stop_event):
+    global last_clipboard_content
     current_modifiers = set()
-
+    
     def on_press(key):
         try:
+            # Add modifiers
             if key == keyboard.Key.ctrl_l or key == keyboard.Key.ctrl_r:
                 current_modifiers.add('ctrl')
-            if key == keyboard.Key.cmd or key == keyboard.Key.cmd_l or key == keyboard.Key.cmd_r:
+                return
+            elif key == keyboard.Key.cmd or key == keyboard.Key.cmd_l or key == keyboard.Key.cmd_r:
                 current_modifiers.add('cmd')
-            
-            if hasattr(key, 'char') and key.char:
-                ch = key.char.lower()
-                if ch == 'c' and ('ctrl' in current_modifiers or 'cmd' in current_modifiers):
-                    title, pid, process = get_active_window_info()
-                    try:
-                        clip = pyperclip.paste()
-                    except Exception:
-                        clip = None
-                    clip_timestamp = None
-                    if clip:
-                        clip_timestamp = log_clipboard(clip, title, pid, process)
-                    event_timestamp = log_event('copy', title, pid, process, clipboard_timestamp=clip_timestamp)
-                    print(f"[EVENT] {now_iso()} Copy event logged")
-                    
-                if ch == 'v' and ('ctrl' in current_modifiers or 'cmd' in current_modifiers):
-                    title, pid, process = get_active_window_info()
-                    try:
-                        clip = pyperclip.paste()
-                    except Exception:
-                        clip = None
-                    clip_timestamp = None
-                    if clip:
-                        clip_timestamp = log_clipboard(clip, title, pid, process)
-                    event_timestamp = log_event('paste', title, pid, process, clipboard_timestamp=clip_timestamp)
-                    print(f"[EVENT] {now_iso()} Paste event logged")
-        except Exception:
-            pass
+                return
+
+            # Check for C or V keys
+            if isinstance(key, keyboard.KeyCode):
+                if key.char and key.char.lower() in ['c', 'v']:
+                    if 'ctrl' in current_modifiers or 'cmd' in current_modifiers:
+                        title, pid, process = get_active_window_info()
+                        
+                        # Handle Copy (C)
+                        if key.char.lower() == 'c':
+                            print("Copy detected!")
+                            try:
+                                clip = pyperclip.paste()
+                            except Exception:
+                                clip = None
+                            
+                            clip_timestamp = None
+                            if clip:
+                                with clipboard_lock:
+                                    if clip != last_clipboard_content:
+                                        clip_timestamp = log_clipboard(clip, title, pid, process)
+                                        last_clipboard_content = clip
+                                    else:
+                                        clip_timestamp = now_iso()
+                            
+                            event_timestamp = log_event('copy', title, pid, process, clipboard_timestamp=clip_timestamp)
+                            print(f"[EVENT] Copy event logged at {event_timestamp}")
+                        
+                        # Handle Paste (V)
+                        elif key.char.lower() == 'v':
+                            print("Paste detected!")
+                            try:
+                                clip = pyperclip.paste()
+                            except Exception:
+                                clip = None
+                            
+                            clip_timestamp = now_iso() if clip else None
+                            event_timestamp = log_event('paste', title, pid, process, clipboard_timestamp=clip_timestamp)
+                            print(f"[EVENT] Paste event logged at {event_timestamp}")
+                            
+        except Exception as e:
+            print(f"[ERROR] Keyboard event error: {e}")
+
 
     def on_release(key):
         try:
             if key == keyboard.Key.ctrl_l or key == keyboard.Key.ctrl_r:
                 current_modifiers.discard('ctrl')
-            if key == keyboard.Key.cmd or key == keyboard.Key.cmd_l or key == keyboard.Key.cmd_r:
+            elif key == keyboard.Key.cmd or key == keyboard.Key.cmd_l or key == keyboard.Key.cmd_r:
                 current_modifiers.discard('cmd')
         except Exception:
             pass
@@ -235,9 +265,7 @@ def keyboard_listener_thread(stop_event):
             return False
 
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-        while not stop_event.is_set():
-            time.sleep(0.1)
-        listener.stop()
+        listener.join()
 
 # ---------- Browser history reader (Chrome, Firefox local) ----------
 def read_chrome_history():
