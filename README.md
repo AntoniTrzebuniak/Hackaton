@@ -52,7 +52,6 @@ python APP.py
 
 ```
 
-## Aplikacja wykonuje się w czasie rzyczywistym, zbiera aktywność użytkowników zarówno na stronie webowej jak aplikacji okienkowych. Program przedstawia szereg wykresów, szukając możliwość zautomatyzowania procesów które wykonujemy ale są bardzo powtarzalne 
+#### Aplikacja wykonuje się w czasie rzyczywistym, zbiera aktywność użytkowników zarówno na stronie webowej jak aplikacji okienkowych. Program przedstawia szereg wykresów, szukając możliwość zautomatyzowania procesów które wykonujemy ale są bardzo powtarzalne, albo zauważyć czynności które zabierają nam czas który powinniśmy wykonać w inny sposób.
 ---
 
-Jeśli napotkasz jakiekolwiek problemy podczas tych kroków, daj znać, a chętnie pomogę!
