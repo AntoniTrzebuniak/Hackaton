@@ -2,11 +2,11 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import threading
 from Collector import collector_to_csv
-from Process_analyse import proc_analysis
 import csv
 from datetime import datetime
 import os
 from flask import send_from_directory
+from Process_analyse import gen_plots
 
 app = Flask(__name__)
 CORS(app)
@@ -21,7 +21,7 @@ def start_processbot():
     collector_to_csv.main()  # uruchamiamy monitor w tle
 
 threading.Thread(target=start_processbot, daemon=True).start()
-
+threading.Thread(target=gen_plots.generate_plots, daemon=True).start()
 # ---------- Flask endpoints ----------
 @app.route("/log", methods=["POST"])
 def log_time():
@@ -41,16 +41,24 @@ def log_time():
     return {"status": "ok"}
 
 @app.route('/')
+@app.route('/index')
 def index():
     # Lista plików w folderze plots
     plots = sorted(os.listdir(PLOT_FOLDER))
     return render_template('index.html', plots=plots)
 
+@app.route('/analytics')
+def analytics():
+    return render_template('analytics.html')
+
+@app.route('/plotly/<path:filename>')
+def serve_plotly(filename):
+    return send_from_directory('plotly', filename)
+
 @app.route('/api/plots')
 def api_plots():
     if not os.path.exists(PLOT_FOLDER):
         return jsonify([])
-    # Zwracamy tylko pliki PNG/JPG itp.
     plots = [f for f in os.listdir(PLOT_FOLDER) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))]
     plots.sort()
     return jsonify(plots)

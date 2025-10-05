@@ -30,6 +30,7 @@ import psutil
 import pyperclip
 import pygetwindow as gw
 
+
 # ---------- Configuration ----------
 from pathlib import Path
 DATA_DIR = Path("./data")

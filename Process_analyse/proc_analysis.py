@@ -3,6 +3,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import timedelta
 import networkx as nx
+import time
 
 class ProcessAnalyzer:
     def __init__(self, csv_path: str):
@@ -29,19 +30,22 @@ class ProcessAnalyzer:
         if not hasattr(self, 'time_spent'):
             self.calculate_time_spent()
         
+        # Sortowanie według czasu (minuty) malejąco
+        sorted_df = self.time_spent.sort_values(by='minutes', ascending=False)
+
         fig = px.bar(
-            self.time_spent,
+            sorted_df,
             x='process',
             y='minutes',
             color='process',
-            title='Czas spędzony w poszczególnych procesach (minuty)',
+            title='Time spent on individual processes (minutes)',
             text_auto='.2f'
         )
         fig.update_layout(
-            xaxis_title='Proces',
-            yaxis_title='Czas [minuty]',
+            xaxis_title='Process',
+            yaxis_title='Time [minutes]',
             showlegend=False,
-            template='plotly_dark',
+            template='plotly_white',
             hovermode='x unified'
         )
         
@@ -83,7 +87,7 @@ class ProcessAnalyzer:
             mode='lines'
         )
         
-        node_x, node_y, node_text, degrees = [], [], [], []
+        node_x, node_y, node_text, degrees, hover_texts = [], [], [], [], []
         max_degree = max(dict(G.degree()).values())
         for node in G.nodes():
             x, y = pos[node]
@@ -92,12 +96,14 @@ class ProcessAnalyzer:
             node_text.append(node)
             degree = G.degree(node)
             degrees.append(degree)
+            hover_texts.append(f"<b>{node}</b><br>Node Degree: {degree}")
         
         node_trace = go.Scatter(
             x=node_x, y=node_y,
             mode='markers+text',
             text=node_text,
             textposition='top center',
+            hovertext=hover_texts,
             hoverinfo='text',
             marker=dict(
                 showscale=True,
@@ -107,7 +113,7 @@ class ProcessAnalyzer:
                 sizemode='diameter',  # tryb skalowania
                 sizemin=1,  # minimalny rozmiar węzła
                 colorbar=dict(
-                    title='Stopień węzła',
+                    title='Node Degree',
                     thickness=15,
                     xanchor='left'  
                 ),
@@ -117,12 +123,12 @@ class ProcessAnalyzer:
         
         fig = go.Figure(data=[edge_trace, node_trace],
                         layout=go.Layout(
-                            title='Sieć przejść między procesami' if column == 'process' else 'Sieć przejść między podprocesami',
+                            title='Network of passages between processes' if column == 'process' else 'Network of passages between windows',
                             title_x=0.5,
                             showlegend=False,
                             hovermode='closest',
                             margin=dict(b=0, l=0, r=0, t=40),
-                            template='plotly_dark',
+                            template='plotly_white',
                             autosize=True 
                         ))
         
@@ -133,7 +139,7 @@ class ProcessAnalyzer:
 
 
 if __name__ == "__main__":
-    analyzer = ProcessAnalyzer("data/corporate_workflow_data.csv")
+    analyzer = ProcessAnalyzer("data/windows.csv")
     print(analyzer.calculate_time_spent())
 
     fig = analyzer.plot_time_spent("plotly/czas_procesy.html")

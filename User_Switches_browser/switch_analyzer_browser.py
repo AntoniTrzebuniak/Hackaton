@@ -8,14 +8,23 @@ from pathlib import Path
 
 
 def load_and_sort_logs(path: str, ts_col: str = "timestamp") -> pd.DataFrame:
-    """Wczytuje CSV i sortuje po kolumnie timestamp rosnąco."""
-    df = pd.read_csv(path)
+    """Loads CSV and sorts by timestamp column ascending."""
+
+    # Read only specific columns we need
+    df = pd.read_csv(
+        path,
+        usecols=["event", "domain", "time", "timestamp"],
+        on_bad_lines='skip'  # Skip problematic lines
+    )
+    
     if ts_col not in df.columns:
-        raise ValueError(f"Brak kolumny timestamp w pliku: {path}")
+        raise ValueError(f"Missing timestamp column in file: {path}")
 
     df[ts_col] = pd.to_datetime(df[ts_col], errors="coerce")
     df = df.dropna(subset=[ts_col])
     df = df.sort_values(by=ts_col).reset_index(drop=True)
+    
+    print(f"Successfully loaded {len(df)} rows from {path}")
     return df
 
 
@@ -166,10 +175,10 @@ def plot_time_spent_histograms_per_day(csv_path: str, top_n: int = 10, save_dir:
 
 
 if __name__ == "__main__":
-    path_csv = "../data/data_html.csv"
+    path_csv = "./data/data_html.csv"
     df = load_and_sort_logs(path_csv)
     main_col = detect_main_column(df)
     transitions = count_transitions(df, main_col)
-    plot_heatmaps_per_day(df, main_col, save_dir="../plots")
-    summary = plot_time_spent_histograms_per_day("../data/data_html.csv", top_n=10)
+    plot_heatmaps_per_day(df, main_col, save_dir="./plots")
+    summary = plot_time_spent_histograms_per_day(path_csv, top_n=10)
     print(summary)

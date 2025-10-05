@@ -79,3 +79,103 @@ timestamp,event_type,window_title,process,pid,associated_clipboard_timestamp
 2025-10-04 19:26:23,paste,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 19:26:23
 2025-10-04 19:29:39,copy,JSON data file management - Claude – Opera,opera.exe,18264,2025-10-04 19:29:39
 2025-10-04 19:37:45,copy,Command Prompt - app.py,WindowsTerminal.exe,16848,2025-10-04 19:37:45
+2025-10-04 19:47:09,copy,index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 19:47:09
+2025-10-04 19:48:25,copy,index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 19:48:25
+2025-10-04 19:56:24,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 19:56:24
+2025-10-04 20:00:39,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:00:39
+2025-10-04 20:01:28,paste,● style.css - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:01:28
+2025-10-04 20:02:36,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:02:36
+2025-10-04 20:02:53,paste,Bez tytułu — Notatnik,Notepad.exe,24252,2025-10-04 20:02:53
+2025-10-04 20:03:31,copy,*style — Notatnik,Notepad.exe,24252,2025-10-04 20:03:31
+2025-10-04 20:03:53,paste,● style.css - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:03:53
+2025-10-04 20:06:22,copy,index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:06:22
+2025-10-04 20:08:08,copy,index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:08:08
+2025-10-04 20:08:09,copy,index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:08:09
+2025-10-04 20:13:47,copy,● index.html - Hackaton - Visual Studio Code,Code.exe,18256,2025-10-04 20:13:47
+2025-10-04 21:17:57,copy,APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 21:17:57
+2025-10-04 21:18:01,copy,APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 21:18:01
+2025-10-04 21:37:04,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 21:37:04
+2025-10-04 21:37:06,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,
+2025-10-04 21:43:24,copy,index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 21:43:24
+2025-10-04 21:43:28,paste,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 21:43:28
+2025-10-04 22:13:36,copy,Dane - analiza – Opera,opera.exe,12704,2025-10-04 22:13:36
+2025-10-04 22:17:51,copy,Dane - analiza – Opera,opera.exe,12704,2025-10-04 22:17:51
+2025-10-04 22:17:52,copy,Dane - analiza – Opera,opera.exe,12704,2025-10-04 22:17:52
+2025-10-04 23:07:03,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:07:03
+2025-10-04 23:08:14,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:08:14
+2025-10-04 23:13:15,copy,DETAILS_uczmnie_ProcessBot.pdf – Opera,opera.exe,12704,2025-10-04 23:13:15
+2025-10-04 23:13:17,paste,Szybkie wybieranie – Opera,opera.exe,12704,2025-10-04 23:13:17
+2025-10-04 23:16:42,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:16:42
+2025-10-04 23:16:50,paste,● APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:16:50
+2025-10-04 23:17:06,copy,● APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:17:06
+2025-10-04 23:17:12,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:17:12
+2025-10-04 23:18:17,copy,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:18:17
+2025-10-04 23:20:38,copy,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:20:38
+2025-10-04 23:20:43,paste,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:20:43
+2025-10-04 23:21:17,copy,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:21:17
+2025-10-04 23:21:21,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:21:21
+2025-10-04 23:22:13,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:22:13
+2025-10-04 23:22:15,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:22:15
+2025-10-04 23:28:18,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:28:18
+2025-10-04 23:29:35,paste,● APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:29:35
+2025-10-04 23:32:16,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:32:16
+2025-10-04 23:32:27,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:32:27
+2025-10-04 23:33:53,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:33:53
+2025-10-04 23:33:58,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:33:58
+2025-10-04 23:47:20,copy,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:47:20
+2025-10-04 23:47:25,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:47:25
+2025-10-04 23:47:29,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:47:29
+2025-10-04 23:49:42,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:49:42
+2025-10-04 23:52:54,copy,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:52:54
+2025-10-04 23:53:17,paste,● style.css - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:53:17
+2025-10-04 23:53:45,copy,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:53:45
+2025-10-04 23:54:12,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:54:12
+2025-10-04 23:54:18,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:54:18
+2025-10-04 23:54:26,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:54:26
+2025-10-04 23:54:28,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:54:28
+2025-10-04 23:54:49,copy,analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:54:49
+2025-10-04 23:54:56,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:54:56
+2025-10-04 23:55:15,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:15
+2025-10-04 23:55:19,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:19
+2025-10-04 23:55:24,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:24
+2025-10-04 23:55:27,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:27
+2025-10-04 23:55:33,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:33
+2025-10-04 23:55:39,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:39
+2025-10-04 23:55:46,copy,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:46
+2025-10-04 23:55:49,paste,● analytics.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:55:49
+2025-10-04 23:56:46,paste,style.css - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:56:46
+2025-10-04 23:57:29,copy,● style.css - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:57:29
+2025-10-04 23:57:38,paste,● style.css - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:57:38
+2025-10-04 23:58:09,copy,● style.css - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:58:09
+2025-10-04 23:58:13,paste,● style.css - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-04 23:58:13
+2025-10-05 00:12:50,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 00:12:50
+2025-10-05 00:14:07,copy,switch_analyzer.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 00:14:07
+2025-10-05 01:01:23,copy,APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:01:23
+2025-10-05 01:16:18,copy,index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:16:18
+2025-10-05 01:16:21,copy,index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:16:21
+2025-10-05 01:16:32,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:16:32
+2025-10-05 01:16:42,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:16:42
+2025-10-05 01:16:54,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:16:54
+2025-10-05 01:17:00,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:17:00
+2025-10-05 01:17:13,copy,● index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:17:13
+2025-10-05 01:17:17,paste,● index.html - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:17:17
+2025-10-05 01:18:32,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:18:32
+2025-10-05 01:18:44,paste,Narzędzia do wykresów interaktywnych – Opera,opera.exe,12704,2025-10-05 01:18:44
+2025-10-05 01:21:26,copy,Narzędzia do wykresów interaktywnych – Opera,opera.exe,12704,2025-10-05 01:21:26
+2025-10-05 01:21:51,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:21:51
+2025-10-05 01:22:01,copy,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:22:01
+2025-10-05 01:22:05,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:22:05
+2025-10-05 01:22:17,copy,Narzędzia do wykresów interaktywnych – Opera,opera.exe,12704,2025-10-05 01:22:17
+2025-10-05 01:22:24,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:22:24
+2025-10-05 01:22:41,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:22:41
+2025-10-05 01:25:45,paste,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:25:45
+2025-10-05 01:25:58,paste,● proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:25:58
+2025-10-05 01:26:13,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:26:13
+2025-10-05 01:29:42,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:29:42
+2025-10-05 01:30:21,copy,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:30:21
+2025-10-05 01:30:49,paste,proc_analysis.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:30:49
+2025-10-05 01:31:04,paste,web_analys.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:31:04
+2025-10-05 01:31:07,paste,● web_analys.py - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:31:07
+2025-10-05 01:31:21,copy,APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:31:21
+2025-10-05 01:34:59,copy,APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:34:59
+2025-10-05 01:35:00,copy,APP.PY - Hackaton - Visual Studio Code,Code.exe,11708,2025-10-05 01:35:00
