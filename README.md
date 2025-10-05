@@ -1,6 +1,6 @@
 # Hackaton
 
-## Aby uruchomić projekt z repozytorium GitHub [AntoniTrzebuniak/Hackaton](https://github.com/AntoniTrzebuniak/Hackaton), wykonaj poniższe kroki:
+## Aby uruchomić projekt z repozytorium, wykonaj poniższe kroki:
 
 ---
 
@@ -9,8 +9,10 @@
 Otwórz terminal i wykonaj polecenie:
 
 ```bash
+
 git clone https://github.com/AntoniTrzebuniak/Hackaton.git
 cd Hackaton
+
 ```
 
 ---
@@ -20,8 +22,10 @@ cd Hackaton
 Upewnij się, że masz zainstalowanego Conda. Następnie utwórz środowisko:
 
 ```bash
+
 conda env create -f environment.yml
 conda activate workflow1
+
 ```
 
 ---
@@ -31,7 +35,9 @@ conda activate workflow1
 Jeśli po aktywacji środowiska pojawią się błędy związane z brakującymi pakietami, zainstaluj je za pomocą pip:
 
 ```bash
+
 pip install ...
+
 ```
 
 ---
@@ -41,7 +47,9 @@ pip install ...
 W katalogu głównym projektu uruchom aplikację:
 
 ```bash
+
 python APP.py
+
 ```
 
 ## Aplikacja wykonuje się w czasie rzyczywistym, zbiera aktywność użytkowników zarówno na stronie webowej jak aplikacji okienkowych. Program przedstawia szereg wykresów, szukając możliwość zautomatyzowania procesów które wykonujemy ale są bardzo powtarzalne 
