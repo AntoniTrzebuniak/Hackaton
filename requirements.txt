@@ -1,0 +1,11 @@
+flask 
+keyboard
+pandas
+win32gui
+psutil
+paperclip
+pygetwindow
+networkx
+plotly
+matplotlib
+seaborn
