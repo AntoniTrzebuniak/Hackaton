@@ -15,18 +15,13 @@ import threading
 import time
 import os
 import sys
-import platform
-from datetime import datetime, timedelta
-import shutil
-import tempfile
-import sqlite3
+from datetime import datetime
 import csv
 import keyboard
 import win32gui
 import win32process
 import psutil
 
-import psutil
 import pyperclip
 import pygetwindow as gw
 
