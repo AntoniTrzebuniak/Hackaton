@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProcessBot Analytics</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.26.0/plotly.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Advanced Analytics</h1>
+            <p>Deep Insights into Your Work Patterns</p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}" class="nav-button">Dashboard</a>
+            <a href="{{ url_for('analytics') }}" class="nav-button active">Analytics</a>
+        </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Time Distribution Across Applications</div>
+        <p class="chart-description">Analysis of time spent in different 
+            applications, helping identify your most used tools and potential
+            productivity optimization opportunities.</p>
+        <div id="time-spent-chart" class="chart-wrapper">
+            <iframe id="time-iframe" width="100%" height="600px" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Window Switching Patterns</div>
+                <p class="chart-description">Interactive network visualization showing how
+                     you navigate between different windows. Larger nodes indicate more
+                      frequently accessed windows, while connections show common transitions.</p>
+        <div id="network-chart" class="chart-wrapper">
+            <iframe id="network-iframe1" width="100%" height="600px" frameborder="0"></iframe>
+        </div>
+    </div>
+        <div class="chart-container">
+        <div class="chart-title">Application Flow Network</div>
+        <p class="chart-description">Visual representation of your workflow between applications.
+             Reveals common application 
+            switching patterns and helps identify your core application clusters.</p>
+        <div id="network-chart" class="chart-wrapper">
+            <iframe id="network-iframe2" width="100%" height="600px" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script>
+        function loadCharts() {
+            // Dodaj timestamp do URL aby wymusić odświeżenie cache
+            const timestamp = new Date().getTime();
+
+            // Zakładając, że pliki nazywają się czas_procesy.html i siec_process.html
+            document.getElementById('time-iframe').src = `/plotly/czas_procesy.html`;
+            document.getElementById('network-iframe1').src = `/plotly/siec_titles.html`;
+            document.getElementById('network-iframe2').src = `/plotly/siec_process.html`;
+        }
+
+        // Załaduj wykresy na starcie
+        loadCharts();
+
+        // Odświeżaj wykresy co 300 sekund
+        setInterval(loadCharts, 300_000);
+    </script>
+
+
+</body>
+</html>
