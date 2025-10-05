@@ -7,7 +7,7 @@ dependencies:
   - flask
   - keyboard
   - pandas
-  - win32gui
+  - pywin32
   - psutil
   - paperclip
   - pygetwindow
