@@ -1,50 +1,118 @@
 import pandas as pd
-import tensorflow_hub as hub
+from datetime import datetime, timedelta
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+from transformers import pipeline
 
-# -------------------------------
-# 1. Wczytanie danych
-# -------------------------------
-df1 = pd.read_csv("../data/emails.csv")
-df2 = pd.read_csv("../data/emails1.csv")
-df = pd.concat([df1, df2], ignore_index=True)
+generator = pipeline("text2text-generation", model="google/flan-t5-base")
 
-# Łączenie subject i body
-texts = df['subject'].fillna('') + ' ' + df['body'].fillna('')
 
-# -------------------------------
-# 2. Generowanie embeddingów
-# -------------------------------
-embed_model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
-embeddings = embed_model(texts.tolist())
-embeddings_np = embeddings.numpy()
+# Funkcja wczytująca i łącząca pliki
+def load_and_merge(file1, file2):
+    headers = ["id", "subject", "timestamp", "body", "from", "to", "direction", "domain"]
 
-# -------------------------------
-# 3. Klasteryzacja KMeans
-# -------------------------------
-num_clusters = 10
-kmeans = KMeans(n_clusters=num_clusters, random_state=42)
-df['cluster'] = kmeans.fit_predict(embeddings_np)
+    df1 = pd.read_csv(file1, header=None, names=headers, skiprows=1, encoding="utf-8")
+    df2 = pd.read_csv(file2, header=None, names=headers, skiprows=1, encoding="utf-8")
 
-# -------------------------------
-# 4. Generowanie nazw tematów dla klastrów
-# -------------------------------
-# proste podejście: temat = najczęściej występujące słowo w subject pierwszych maili klastra
-cluster_topics = {}
-for cluster_id in df['cluster'].unique():
-    sample_subjects = df[df['cluster'] == cluster_id]['subject'].dropna().head(5).tolist()
-    if sample_subjects:
-        # bierzemy pierwsze 3 słowa z pierwszego maila jako "temat"
-        topic_name = " ".join(sample_subjects[0].split()[:3])
-    else:
-        topic_name = f"Klastr {cluster_id}"
-    cluster_topics[cluster_id] = topic_name
+    df1 = df1[df1['id'] != "id"]
+    df2 = df2[df2['id'] != "id"]
 
-df['topic_name'] = df['cluster'].map(cluster_topics)
+    merged_df = pd.concat([df1, df2], ignore_index=True)
+    return merged_df
 
-# -------------------------------
-# 5. Wyświetlanie powiadomień
-# -------------------------------
-for cluster_id, topic_name in cluster_topics.items():
-    count = df[df['cluster'] == cluster_id].shape[0]
-    print(f"Masz {count} wiadomości w temacie '{topic_name}'")
+
+# Funkcja wyodrębniająca maile z dzisiaj
+def get_yesterdays_emails(df):
+    yesterday = (datetime.today() - timedelta(days=1)).date()
+    df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce', infer_datetime_format=True)
+    df = df.dropna(subset=['timestamp'])
+    return df[df['timestamp'].dt.date == yesterday], df[df['timestamp'].dt.date < yesterday]
+
+# Funkcja klasteryzacji maili
+def cluster_emails(df_old, n_clusters=5):
+    vectorizer = TfidfVectorizer(stop_words='english')
+    X = vectorizer.fit_transform(df_old['body'] + " " + df_old['subject'])
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    clusters = kmeans.fit_predict(X)
+    df_old['cluster'] = clusters
+    return df_old, vectorizer, kmeans
+
+
+# Funkcja przypisująca nowe maile do istniejących klastrów
+def assign_clusters(df_today, vectorizer, kmeans, threshold=0.8):
+    X_new = vectorizer.transform(df_today['body'] + " " + df_today['subject'])
+    clusters = kmeans.predict(X_new)
+    similarities = cosine_similarity(X_new, kmeans.cluster_centers_)
+    max_similarities = similarities.max(axis=1)
+
+    df_today['cluster'] = clusters
+    df_today['similarity'] = max_similarities
+    df_today['cluster_valid'] = df_today['similarity'] >= threshold
+
+    return df_today
+
+
+# Funkcja zapytania użytkownika
+def prompt_user_and_generate_response(email_row):
+    print(f"\n📩 Nowy email od: {email_row['from']}")
+    print(f"Temat: {email_row['subject']}")
+    print(f"Tresc: {email_row['body']}\n")
+
+    choice = input("Czy chcesz wygenerować odpowiedź na tego maila? (tak/nie): ").strip().lower()
+    if choice == "tak":
+        response = generate_ai_response(email_row)
+        print(f"\n💬 Odpowiedź wygenerowana:\n{response}")
+        return response
+    return None
+
+
+# Przykładowa funkcja generująca odpowiedź AI (placeholder)
+def generate_ai_response(email_row):
+    # Tworzymy czysty prompt — bez "Napisz..." w treści maila
+    prompt = (
+        f"Email od: {email_row['from']}\n"
+        f"Temat: {email_row['subject']}\n"
+        f"Tresc: {email_row['body']}\n\n"
+        f"Napisz krótką i uprzejmą odpowiedź."
+    )
+
+    result = generator(
+        prompt,
+        max_new_tokens=150,
+        do_sample=True,
+        temperature=0.7,
+        top_p=0.9
+    )
+
+    generated_text = result[0]['generated_text']
+
+    # Usuwamy powtórzoną treść maila w odpowiedzi
+    if email_row['body'] in generated_text:
+        generated_text = generated_text.replace(email_row['body'], "").strip()
+
+    return generated_text
+
+
+# --- GŁÓWNY SKRYPT ---
+if __name__ == "__main__":
+    file1 = "../data/emails.csv"
+    file2 = "../data/emails1.csv"
+
+    df = load_and_merge(file1, file2)
+    df_today, df_old = get_yesterdays_emails(df)
+
+    print(f"Znaleziono {len(df_today)} maili z wczoraj i {len(df_old)} maili z wcześniejszych dni.")
+
+    df_old, vectorizer, kmeans = cluster_emails(df_old, n_clusters=5)
+    df_today = assign_clusters(df_today, vectorizer, kmeans, threshold=0.8)
+
+    for _, row in df_today.iterrows():
+        if row['cluster_valid']:
+            print(f"\n📩 Mail pasuje do klastra {row['cluster']} z podobieństwem {row['similarity']:.2f}")
+            response = prompt_user_and_generate_response(row)
+            if response:
+                print(f"\n💡 Wygenerowana odpowiedź:\n{response}")
+        else:
+            print(f"\nMail od {row['from']} nie pasuje do żadnego istniejącego klastra.")
